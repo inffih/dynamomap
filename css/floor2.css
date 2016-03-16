@@ -1,6 +1,6 @@
 body {
 	background: #0b0b0b;
-	background-image: url(img/aula.jpg);
+	background-image: url(../img/elevatorblur.jpg);
 	background-repeat:no-repeat;
 	
 	/*Taustakuva venyy koko näytölle*/
@@ -47,11 +47,11 @@ body {
 }
 #volume {
     border-style: none;
-    background-image: url(images/volumeon.png);
+    background-image: url(../img/volumeon.png);
     cursor:pointer;
     position:fixed;
     margin-top:-60px;
-    margin-left:80%
+    margin-left:70%
 }
 
 
@@ -69,7 +69,7 @@ h1 {
 	height: 520px;
 	width: 1024px;
 	border-radius: 10px;
-	background-image: url(img/holder_bg.png);
+	background-image: url(../img/holder_bg.png);
 }
 
 .sisalto {
