@@ -1,6 +1,6 @@
 body {
 	background: #0b0b0b;
-	background-image: url(img/aula.jpg);
+	background-image: url(../img/aula.jpg);
 	background-repeat:no-repeat;
 	
 	/*Taustakuva venyy koko näytölle*/
@@ -61,7 +61,7 @@ h1 {
 	height: 520px;
 	width: 1024px;
 	border-radius: 10px;
-	background-image: url(img/holder_bg.png);
+	background-image: url(../img/holder_bg.png);
 }
 
 .sisalto {
