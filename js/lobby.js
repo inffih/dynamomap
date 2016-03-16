@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   pannellum.viewer('panorama', {
-    "panorama": "img/panoraama_aula.jpg",
+    "panorama": "img/panorama_lobby.jpg",
     "autoLoad": true,
     "keyboardZoom": false,
     "showZoomCtrl": false,
