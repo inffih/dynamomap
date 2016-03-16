@@ -31,7 +31,7 @@ html, body {
     margin-left:60%;
     margin-top:6px;
 }
-.valikko {
+.menu {
     clear:both;
     background-color:white;
     width:400px;
@@ -43,14 +43,14 @@ html, body {
     margin-top:11%;
     box-shadow:3px 3px 3px #00004d;
 }
-.vh1 {
+.menuheading {
     text-shadow: 2px 2px 2px black;
     text-align: center;
     margin-top:70px;
     color: #00497d;
     font-size:50px;
 }
-.v1 {
+.menu1 {
     width: 200px;
     height:75px;
     margin-left:100px;
@@ -59,7 +59,7 @@ html, body {
     border-radius:15px;
     box-shadow:5px 5px 5px;
 }
-.v2 {
+.menu2 {
     width: 200px;
     height:75px;
     margin-left:100px;
@@ -69,7 +69,7 @@ html, body {
     box-shadow:bottom 5px;
     box-shadow: 5px 5px 5px;
 }
-.v3 {
+.menu3 {
     background-color:white;
     width: 300px;
     height:160px;
@@ -77,28 +77,25 @@ html, body {
     margin-top:30px;
     border-radius:15px;
 }
-.valikkoteksti {
+.menutext1 {
+    font-size:20px;
+    font-weight:800;
+    text-shadow: 2px 2px 2px black;
     border-style:none;
     padding-top:25;
     text-align:center;
     color:white;
+    cursor:pointer;
 }
-.valikkoteksti2 {
+.menutext1:hover {
+    color:#e6007e;
+}
+.menutext2 {
     font-size:15px;
     text-align:center;
     text-align:center;
     font-weight: 900;
     color:#00497d;
-}
-.valikkob {
-    border-style:none;
-    background-color:#00497d;
-    height:20px;
-    font-size:20px;
-    font-weight:800;
-    color:white;
-    cursor:pointer;
-    text-shadow: 2px 2px 2px black;
 }
 
 
