@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Ruokala</title>
+    <meta charset="UTF-8"></meta>
+    <link style="text/css" rel="stylesheet" href="ruokala.css">
+</head>
+<body>
+<header class="header"><audio id="tausta" src="taustahalina.mp3" autoplay loop></audio><p id="dynamo">DYNAMO-Map</p><img id="volume" onclick="changeImage()" onclick="mute()" src="images/volumeon.png"></header>
+<div>
+    <img id="takaosa" src="images/takaosa.png">
+    <img id="kokki" src="images/kokki2.png" onmouseover="kokkiMouseOver()" onmouseout="kokkiMouseOut()" onclick="openWindow()">
+    <img id="edusta" src="images/edusta.png">
+</div>
+    <script src="jquery-2.2.0.min.js"></script>
+    <script src="ruokala.js"></script>
+</body>    
+</html>

@@ -1,0 +1,105 @@
+html, body {
+    background-color:black;
+    font-family:calibri,arial;
+    padding:0;
+    margin:0;
+    border:0;
+}
+.header {
+    background-color:#00497d;
+    height:80px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+#dynamo {
+    margin-top:20px;
+    margin-left:100px;
+    border-style:none;
+    background-color:#00497d;
+    font-size:30px;
+    font-weight:800;
+    color:white;
+    text-shadow: 2px 2px 2px #00004d;
+}
+#volume {
+    border-style: none;
+    background-image: url(images/volumeon.png);
+    cursor:pointer;
+    position:fixed;
+    margin-left:60%;
+    margin-top:6px;
+}
+.valikko {
+    clear:both;
+    background-color:white;
+    width:400px;
+    height:600px;
+    border:10px solid #00497d;
+    border-radius:15px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:11%;
+    box-shadow:3px 3px 3px #00004d;
+}
+.vh1 {
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    margin-top:70px;
+    color: #00497d;
+    font-size:50px;
+}
+.v1 {
+    width: 200px;
+    height:75px;
+    margin-left:100px;
+    margin-top:50px;
+    background-color:#00497d;
+    border-radius:15px;
+    box-shadow:5px 5px 5px;
+}
+.v2 {
+    width: 200px;
+    height:75px;
+    margin-left:100px;
+    margin-top:15px;
+    background-color:#00497d;
+    border-radius:15px;
+    box-shadow:bottom 5px;
+    box-shadow: 5px 5px 5px;
+}
+.v3 {
+    background-color:white;
+    width: 300px;
+    height:160px;
+    margin-left:50px;
+    margin-top:30px;
+    border-radius:15px;
+}
+.valikkoteksti {
+    border-style:none;
+    padding-top:25;
+    text-align:center;
+    color:white;
+}
+.valikkoteksti2 {
+    font-size:15px;
+    text-align:center;
+    text-align:center;
+    font-weight: 900;
+    color:#00497d;
+}
+.valikkob {
+    border-style:none;
+    background-color:#00497d;
+    height:20px;
+    font-size:20px;
+    font-weight:800;
+    color:white;
+    cursor:pointer;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+    
