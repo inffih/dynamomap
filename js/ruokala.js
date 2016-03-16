@@ -1,3 +1,4 @@
+//äänentoisto
 function changeImage() {
     var image = document.getElementById('volume');
     if (image.src.match("images/volumeon.png")) {
@@ -7,10 +8,13 @@ function changeImage() {
     }
 }
 
-var audio = document.getElementById('tausta');
-function mute() {
-    audio.muted = true;
-}
+var x = document.getElementById('taustahalina');
+document.getElementById('volume').addEventListener('click',function(e) {
+    e=e | window.event;
+    x.muted = !x.muted;
+    e.preventDefault();
+}, false);
+
 //kokkitoiminnot
 function openWindow() {
     var newWindow = window.open("sodexo/sodexo_info.html", "_blank", "width=960, height=720");
