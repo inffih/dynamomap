@@ -3,7 +3,6 @@ html, body {
     padding:0;
     margin:0;
     border:0;
-    
 }
 .header {
     background-color:#00497d;
@@ -32,16 +31,16 @@ html, body {
     margin-top:-60px;
     margin-left:80%
 }
-#takaosa {
+#back {
     width:100%;
     height:100%;
 }
-#kokki {
+#cook {
     cursor:pointer;
     margin-left:920px;
     margin-top:-720px;
 }
-#edusta {
+#front {
     margin-top:-579px;
     margin-left:0;
     width:100%;

@@ -8,7 +8,7 @@ function changeImage() {
     }
 }
 
-var x = document.getElementById('taustahalina');
+var x = document.getElementById('ambient');
 document.getElementById('volume').addEventListener('click',function(e) {
     e=e | window.event;
     x.muted = !x.muted;
@@ -21,19 +21,19 @@ function openWindow() {
 }
 
 function kokkiMouseOver() {
-    var image = document.getElementById('kokki');
-       if (image.src.match("images/kokki2.png")) {
-        image.src="images/kokki.png";
+    var image = document.getElementById('cook');
+       if (image.src.match("images/Cook.png")) {
+        image.src="images/Cook_lol.png";
     } else {
-        image.src = "images/kokki2.png";
+        image.src = "images/Cook.png";
     }
 }
 
 function kokkiMouseOut() {
-    var image = document.getElementById('kokki');
-       if (image.src.match("images/kokki.png")) {
-        image.src="images/kokki2.png";
+    var image = document.getElementById('cook');
+       if (image.src.match("images/Cook_lol.png")) {
+        image.src="images/Cook.png";
     } else {
-        image.src = "images/kokki.png";
+        image.src = "images/Cook.png";
     }
 }
