@@ -136,7 +136,7 @@
 					else if (direction == 2)
 						startPos = startPos - (dist / 10);
 
-					console.log(startPos);
+					//console.log(startPos);
 
 					if (direction > 0) {
 						if (startPos > -4) {return;}

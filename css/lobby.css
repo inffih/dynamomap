@@ -87,8 +87,6 @@ h1 {
     float:left;
 }
 
-
-
 .right {
     width: 450px;
     float: right;
@@ -111,4 +109,68 @@ h1 {
     width: 300px;
     margin: 6px;
     border-radius: 5px;
+}
+
+#highlight_wrap {
+  position: relative;
+  top: 0;
+  margin: auto;
+  width: 5652px;
+  height: 611px;
+}
+
+#highlight_restaurant {
+  position: absolute;
+  opacity: 0;
+  top: 52px;
+  left: 4464px;
+  height: 441px;
+  width: 682px;
+  background-image: url('../img/panorama/highlight_restaurant.png');
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#highlight_library {
+  position: absolute;
+  opacity: 0;
+  top: 240px;
+  left: 3989px;
+  height: 214px;
+  width: 352px;
+  background-image: url('../img/panorama/highlight_library.png');
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#highlight_elevator {
+  position: absolute;
+  opacity: 0;
+  top: 76px;
+  left: 2541px;
+  height: 534px;
+  width: 1115px;
+  background-image: url('../img/panorama/highlight_elevator.png');
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#highlight_auditorium {
+  position: absolute;
+  opacity: 0;
+  top: 180px;
+  left: 308px;
+  height: 376px;
+  width: 498px;
+  background-image: url('../img/panorama/highlight_auditorium.png');
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.is-visible {
+  opacity: 0.8!important;
 }
