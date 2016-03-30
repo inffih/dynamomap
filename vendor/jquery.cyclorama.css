@@ -1,8 +1,10 @@
 .cyclorama {
 	position: relative;
+	top: 150px;
 	width: 100%;
 	height: 611px;
 	overflow: hidden;
+	box-shadow: 1px 5px 15px -2px #000000;
 }
 .cyclorama .pan-inner {
 	position: absolute;
@@ -15,7 +17,7 @@
 
 .cyclorama .pan-content {
 	float: left;
-	width: 5652px;
+	width: 5649px;
 }
 .cyclorama .pan-content img {
 	float: left;
