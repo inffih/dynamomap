@@ -176,3 +176,33 @@ h1 {
 .is-visible {
   opacity: 0.8!important;
 }
+
+.label {}
+
+.label_highlight {
+  color: white;
+}
+
+#label_restaurant {
+  position: absolute;
+  top: 250px;
+  left: 4700px;
+}
+
+#label_library {
+  position: absolute;
+  top: 320px;
+  left: 4100px;
+}
+
+#label_elevator {
+  position: absolute;
+  top: 300px;
+  left: 3075px;
+}
+
+#label_auditorium {
+  position: absolute;
+  top: 300px;
+  left: 470px;
+}
