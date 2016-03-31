@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('#highlight_wrap').children().mouseover(function(){
+  $('#highlight_wrap').children().mouseenter(function(){
     var $thistext = "#" + $(this).attr("data-label");
     $($thistext).off();
     $(this).addClass('is-visible');

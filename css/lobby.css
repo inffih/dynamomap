@@ -49,70 +49,6 @@ h1 {
 	font-size: 25px;
 }
 
-.holder {
-/*	position: fixed;
-		top: 150px;
-		left: 23%;*/
-    margin-top: 190px;
-    margin-left: auto;
-    margin-right: auto;
-	height: 520px;
-	width: 1024px;
-	border-radius: 10px;
-	background-image: url(../img/holder_bg.png);
-}
-
-.content {
-	color: #ffffff;
-	padding: 15px;
-	border: 0px;
-	border-radius: 10px;
-/*	border-style: solid;
-	border-color: #00497d;
-	box-shadow: 1px 7px 15px -2px #000000;*/
-	width: 950px;
-	max-height: 520px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 25px;
-
-}
-
-
-.content a {
-	color: #e6007e;
-}
-
-.left {
-    width: 450px;
-    float:left;
-}
-
-.right {
-    width: 450px;
-    float: right;
-}
-
-.text {
-    float: left;
-    width: 400px;
-}
-
-.left img {
-    float: left;
-    width: 300px;
-    margin: 40px 0px 0px 0px;
-    border-radius: 5px;
-}
-
-.right img {
-    float: left;
-    width: 300px;
-    margin: 6px;
-    border-radius: 5px;
-}
-
 #highlight_wrap {
   position: relative;
   top: 0;
@@ -177,7 +113,12 @@ h1 {
   opacity: 0.8!important;
 }
 
-.label {}
+.label {
+  font-family: sans-serif;
+  font-size: 46px;
+  color: #D90F77;
+  text-shadow: 1px 1px 2px #fff;
+}
 
 .label_highlight {
   color: white;
@@ -185,7 +126,7 @@ h1 {
 
 #label_restaurant {
   position: absolute;
-  top: 250px;
+  top: 450px;
   left: 4700px;
 }
 
