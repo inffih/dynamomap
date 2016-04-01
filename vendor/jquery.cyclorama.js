@@ -33,8 +33,8 @@
 			var posx;
 
 			// left, right
-			$panLeft.on('mousedown touchstart', goRight);
-			$panRight.on('mousedown touchstart', goLeft);
+			$panLeft.on('mousedown', goRight);
+			$panRight.on('mousedown', goLeft);
 
 			if (o.useKeyboard) {
 				$(document).on("keydown", function (e) {
@@ -46,107 +46,55 @@
 				});
 			}
 
-			function dragStart(e) {
-				e.preventDefault();
-				e.stopPropagation();
-
-				if (e.type == "touchstart")
-					offsetX = e.originalEvent.touches[0].pageX;
-				else
-					offsetX = e.pageX;
-
-				isDragging = true;
-				direction = 0; // reset direction
-
-				prevPos = 0;
-				timer = window.setInterval(setDist, 100);
-			}
-
-			function dragEnd(e) {
-				e.preventDefault();
-				e.stopPropagation();
-
-				isDragging = false;
-
-				startPos = curPos; // new position for drag start
-
-				// smooth ending
-				smooth(dist);
-
-				window.clearInterval(timer);
-			}
-
-			function dragging(e) {
-				e.preventDefault();
-				e.stopPropagation();
-
-				if (isDragging) {
-
-					if (e.type == "touchmove")
-						posx = e.originalEvent.touches[0].pageX - offsetX;
-					else
-						posx = e.pageX - offsetX;
-
-					// direction
-					if (typeof(dirPrevPos) != 'undefined') {
-						var deltaX = dirPrevPos - e.pageX;
-						if (deltaX > 0)
-							direction = 2;
-						else if (deltaX < 0)
-							direction = 1;
-						else
-							direction = 0;
-					}
-					dirPrevPos = e.pageX;
-
-					move(posx);
-				}
-			}
-
 			function goLeft(e) {
+				if(startPos > -4000){
 				e.preventDefault();
 				direction = 2;
 				smooth(250);
+				}
 			}
 
 			function goRight(e) {
+				if(startPos < -4){
 				e.preventDefault();
 				direction = 1;
 				smooth(250);
+				}
 			}
 
 			function move(pos) {
 				curPos = startPos + pos;
-
 				if (curPos >= 0)
 					startPos = startPos + initPos;
 				if (curPos <= initPos)
 					startPos = startPos - initPos;
-
 				$panInner.css({left: curPos});
-
-
 			}
 
 			function smooth(dist) {
-				if (!isDragging && dist > 1) {
-
+				if (dist > 1) {
 					if (direction == 1)
 						startPos = startPos + (dist / 10);
 					else if (direction == 2)
 						startPos = startPos - (dist / 10);
-
-					//console.log(startPos);
-
 					if (direction > 0) {
-						if (startPos > -4) {return;}
-						if (startPos < -4000) {return;}
+						// check for max sideways movement
+						if (startPos >= -4) {
+							startPos = -4;
+							return;
+						}
+						if (startPos <= -4000) {
+							startPos = -4000
+							return;
+						}
+						// smooth movement
 						move(0);
 						dist = dist * 0.97;
 						setTimeout(function () {
 							smooth(dist);
 						}, 10);
 					}
+
 				}
 			}
 
