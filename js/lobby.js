@@ -1,4 +1,10 @@
 $(document).ready(function(){
+  
+  jQuery(function($) {
+    $('.cyclorama').cyclorama({
+        useKeyboard: true
+    });
+  });
 
   $('#highlight_wrap').children().mouseenter(function(){
     var $thistext = "#" + $(this).attr("data-label");
