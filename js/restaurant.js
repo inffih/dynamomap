@@ -17,25 +17,33 @@ document.getElementById('volume').addEventListener('click',function(e) {
 
 function kokkiMouseOver() {
     var image = document.getElementById('cook');
-       if (image.src.match("images/Cook.png")) {
-        image.src="images/Cook_lol.png";
+       if (image.src.match("images/cook_colourless.png")) {
+        image.src="images/Cook_colored.png";
     } else {
-        image.src = "images/Cook.png";
+        image.src = "images/Cook_colourless.png";
     }
 }
 
 function kokkiMouseOut() {
     var image = document.getElementById('cook');
-       if (image.src.match("images/Cook_lol.png")) {
-        image.src="images/Cook.png";
+       if (image.src.match("images/cook_colored.png")) {
+        image.src="images/Cook_colored.png";
     } else {
-        image.src = "images/Cook.png";
+        image.src = "images/cook_colourless.png";
     }
 }
 
 $("document").ready(function(e) {
-    $("#cook").click(function(e) {
+    
+    $("#shirt").click(function(e) {
         $("#dsodexo").fadeToggle(1000);
     });
+
+  $('body').css('background-image', 'url(images/ruokala3.png)');
+    
 });
+    
+
+
+
 
