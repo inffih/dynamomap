@@ -1,13 +1,12 @@
-html, body {
+/* html, body {
     font-family:calibri,arial;
     padding:0;
     margin:0;
     border:0;
-    background-image:url(images/ruokala.jpg);
     background-repeat: no-repeat;
     max-width:960px;
 }
-/* header */
+ header 
 .header {
     background-color:#00497d;
     height:80px;
@@ -16,7 +15,7 @@ html, body {
     left:0;
     width:100%;
 }
-/* Dynamomap txt */
+Dynamomap txt 
 #dynamo {
     margin-top:20px;
     margin-left:300px;
@@ -27,7 +26,7 @@ html, body {
     color:white;
     text-shadow: 2px 2px 2px #00004d;
 }
-/* volume button */
+ volume button 
 #volume {
     border-style: none;
     background-image: url(images/volumeon.png);
@@ -36,65 +35,146 @@ html, body {
     margin-top:-60px;
     margin-left:77%;
 }
-/* back button */
+ back button 
 #back {
     position:fixed;
     left:300px;
     cursor:pointer;
 }
-/* dynamite img */
+ dynamite img 
 #dynamite {
     cursor:pointer;
     z-index:10;
     position:fixed;
     left:70%;
     top:3;
-}
+} 
 #content {
     position:absolute;
 }
-/* cook image */
-#cook {
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: calibri, arial;
+	background: #fff;
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header {
+	padding-top: 10px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	box-shadow: 1px 5px 15px -2px #000000;
+	background-color: #00497d;
+	color: #ffffff;
+	font-size: 40px;
+}
+
+#headerwrap {
+	width: 1024px;
+	height: 50px;
+	margin: auto;
+}
+
+header h1 {
+	font-family: calibri, sans-serif;
+	font-size: 32px;
+	color: white;
+	float: left;
+	display: inline;
+}
+
+#volume {
+    border-style: none;
+		height: 28px;
+		width: 35px;
+		margin-top: 10px;
+        cursor: pointer;
+		display: inline;
+		float: right;
+}
+
+.header img {
+	position: fixed;
+	top: 5px;
+	right: 20%;
+	width: 40px;
+}
+
+.back {
+	margin-top: -115px;
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.back img {
+	width: 80px;
+}
+
+.dynamit {
+	height: 198px;
+	width: 200px;
+	background-image: url("images/dynamit_smaller.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline;
+	margin-left: 600px;
+	float: left;
+}
+
+h1 {
+	font-size: 24px;
+}
+#shirt {
+    float:right;
+    margin-top:402px;
+    margin-right:846px;
     cursor:pointer;
-    position:absolute;
-    margin-top:400px;
-    margin-left:900px;
+    z-index:9999;
 }
-/* sodexo info plop */
+
 #dsodexo {
-    background-color:#FFF;
-    width:650px;
-    height:500px;
-    float:left;
+    margin-left:100px;
     margin-top:200px;
-    margin-left:200px;
+    background-color:#FFF;
+    opacity:0.95;
+    border-radius:10px;
+    width:750px;
+    height:500px;
     display:none;
-    box-shadow: 5px 5px 5px;
-    border-radius:40px;
-    border:5px solid #00497d;
+    box-shadow: 0px 0px 5px 5px #00497d;
+    position:absolute;
 }
-#sodexo {
+
+#slogo {
     padding-left:20px;
 }
-#gif {
-    margin-bottom:10px;
-    margin-left:5px;
-}
-#sodexopic {
-    width:150px;
-    height:410px;
-    float:left;
-    margin-left:10px;
-    border-bottom-left-radius: 40px;
-    background-image: url(images/kokkeykuva.png);
+#cook2 {
+    width:300px;
+    height:400px;
+    margin-top:30px;
+    background-image: url(images/cook_das.png);
     background-repeat: no-repeat;
 }
 #info {
     width:450px;
     height:410px;
     float:right;
+    margin-top:-425px;
     margin-right:15px;
-    border-bottom-right-radius: 40px;
     box-shadow: 5px 5px 5px #00497d;
 }
 #sodexotext {
