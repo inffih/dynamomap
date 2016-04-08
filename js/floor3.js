@@ -1,16 +1,24 @@
-function changeImage() {
+/*function changeImage() {
     var image = document.getElementById('volume');
-    if (image.src.match("img/volumeon.png")) {
-        image.src="img/volumeoff.png";
+    if (image.src.match("..img/volumeon.png")) {
+        image.src="..img/volumeoff.png";
     } else {
-        image.src = "img/volumeon.png";
+        image.src = "..img/volumeon.png";
     }
 }
 
 var audio = document.getElementById('tausta');
 function mute() {
     audio.muted = true;
-}
+}*/
+
+$(document).ready(function() {
+    
+    // Näytä tekstiä
+    $("img").click(function () {
+       $("#volume").toggleClass("..img/volumeoff.png");
+    });
+});
 /*Matematiikkatehtävä
 function openWindow() {
     var newWindow = window.open("floor3_math.html", "_blank", "width=960, height=720");
