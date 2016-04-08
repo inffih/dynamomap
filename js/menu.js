@@ -1,71 +1,80 @@
-function changeImage() {
-    var image = document.getElementById('volume');
-    if (image.src.match("images/volumeon.png")) {
-        image.src="images/volumeoff.png";
-    } else {
-        image.src = "images/volumeon.png";
-    }
-}
-
 $("document").ready(function() {
-   $(".menu2").click(function() {
+	//valikko esiin
+   $(".menu, .dynamite").fadeIn(1500);
+	//valikon hover ehosteet
+	$(".menu1, .menu2").hover(function() {
+		$(this).toggleClass("menutext1:hover");
+		$(this).toggleClass("shadow");
+	});
+    //avataan tekijä-osio
+	$(".menu2").click(function() {
        $("#tekijät").fadeToggle(500);
    });
+    //piilotetaan menu ja dynamiitti
     $(".menu2").click(function() {
-        $(".menu").hide();
+        $(".menu, .dynamite").hide();
     });
-    
+    //backnappi
     $("#back").click(function() {
-        $(".menu").fadeToggle(500);
+		$(".info").hide();
+        $(".menu, .dynamite").fadeToggle(500);
     });
     $("#back").click(function() {
         $("#tekijät").hide();
     });
-
+    //jokaisen oma divi avataan kuvaa klikkaamalla
     $("#erika").click(function() {
+		$(".info").fadeOut();
         $("#erikainfo").fadeIn(500);
     });
-    $("#close").click(function() {
+    $(".close").click(function() {
         $("#erikainfo").fadeOut(500);
     });
     
         
     $("#juhani").click(function() {
+		$(".info").fadeOut();
         $("#juhaninfo").fadeIn(500);
     });
-    $("#close1").click(function() {
+    $(".close").click(function() {
         $("#juhaninfo").fadeOut(500);
     });
     
         
-    $("#juho").click(function() {
-        $("#juhoinfo").fadeIn(500);
+    $("#janne").click(function() {
+		$(".info").fadeOut();
+        $("#janneinfo").fadeIn(500);
     });
-    $("#close2").click(function() {
-        $("#juhoinfo").fadeOut(500);
+    $(".close").click(function() {
+        $("#janneinfo").fadeOut(500);
     });
        
     $("#kalle").click(function() {
+		$(".info").fadeOut();
         $("#kalleinfo").fadeIn(500);
     });
-    $("#close3").click(function() {
+    $(".close").click(function() {
         $("#kalleinfo").fadeOut(500);
     });
     
-        
     $("#maiju").click(function() {
+		$(".info").fadeOut();
         $("#maijuinfo").fadeIn(500);
     });
-    $("#close4").click(function() {
+    $(".close").click(function() {
         $("#maijuinfo").fadeOut(500);
     });
     
         
     $("#mikko").click(function() {
+		$(".info").fadeOut();
         $("#mikkoinfo").fadeIn(500);
     });
-    $("#close5").click(function() {
+    $(".close").click(function() {
         $("#mikkoinfo").fadeOut(500);
     });
-    
+    //hoverefekti kuville
+    $("#kalle, #erika, #juhani, #janne, #mikko, #maiju").hover(function() {
+		$(this).toggleClass("shadow");
+	});
 });
