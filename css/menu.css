@@ -1,197 +1,236 @@
-html, body {
-    background-color:black;
-    font-family:calibri,arial;
-    padding:0;
-    margin:0;
-    border:0;
+* {
+	margin: 0;
+	padding: 0;
 }
-.header {
-    background-color:#00497d;
-    height:80px;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
+
+body {
+	font-family: calibri, arial;
+	background: #fff;
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    background-image: url(images/ulkokuvablur.jpg);
 }
-#dynamo {
-    margin-top:20px;
-    margin-left:100px;
-    border-style:none;
-    background-color:#00497d;
-    font-size:30px;
-    font-weight:800;
-    color:white;
-    text-shadow: 2px 2px 2px #00004d;
-}
-#volume {
-    border-style: none;
-    background-image: url(images/volumeon.png);
-    cursor:pointer;
-    position:fixed;
-    margin-left:60%;
-    margin-top:6px;
-}
+
+/* valikko */
 .menu {
     clear:both;
-    background-color:#FFFFFF;
     width:400px;
-    height:600px;
-    border:10px solid #00497d;
+    height:450px;
+    border-radius:10px;
     margin-left:auto;
     margin-right:auto;
-    margin-top:11%;
-    box-shadow:3px 3px 3px #00004d;
+    margin-top:15%;
+    opacity:0.9;
+    display:none;
 }
-.menuheading {
-    text-shadow: 2px 2px 2px black;
-    text-align: center;
-    margin-top:70px;
-    color: #00497d;
-    font-size:50px;
-}
+/*Aloitus-laatikko*/
 .menu1 {
+	float:left;
     width: 200px;
     height:75px;
     margin-left:100px;
     margin-top:50px;
     background-color:#00497d;
     box-shadow:5px 5px 5px;
+	border-radius:10px;
+	box-shadow: 0px 0px 4px 4px #a6a6a6;
 }
+/*tekijät-laatikko*/
 .menu2 {
+	float:left;
     width: 200px;
     height:75px;
     margin-left:100px;
-    margin-top:15px;
+    margin-top:35px;
     background-color:#00497d;
     box-shadow:bottom 5px;
     box-shadow: 5px 5px 5px;
+	border-radius:10px;
+	box-shadow: 0px 0px 4px 4px #a6a6a6;
 }
+/*tekstidiv*/
 .menu3 {
-    background-color:white;
+	float:left;
     width: 300px;
     height:160px;
     margin-left:50px;
     margin-top:30px;
     border-radius:15px;
 }
+/*1. menun teksti*/
 .menutext1 {
-    font-size:20px;
+    padding-top:25px;
+	font-size:20px;
     font-weight:800;
+	height:75px;
     text-shadow: 2px 2px 2px black;
     border-style:none;
-    padding-top:25;
     text-align:center;
     color:white;
     cursor:pointer;
 }
 .menutext1:hover {
     color:#e6007e;
-}
+} /*2. menun teksti*/
 .menutext2 {
     font-size:15px;
     text-align:center;
     text-align:center;
     font-weight: 900;
-    color:#00497d;
+    color:#FFFFFF;
 }
+/*tekijät-ikkuna*/
 #tekijät {
     width:1000px;
     height:700px;
-    background-color:black;
+    background-image:url(images/holder_bg.png);
+	/*background: rgba(51, 51, 51, .7);*/
+    border-radius:10px;
     display:none;
     margin-left:23%;
-    margin-top:200px;
-    border: solid 3px #;
-    
+    margin-top:150px;
+	box-shadow: 0px 0px 2px 2px #a6a6a6;
+	opacity:1.0;
 }
+/*backnuoli*/
 #back {
     cursor:pointer;
     float:left;
     margin-top:-90;
 }
+/*jokaisen kuva ja esittelyikkunat*/
 #erika {
     margin-top:25px;
     margin-left:60px;
+	cursor:pointer;
+    border-radius:10px;
 }
 #erikainfo {
-    width:500px;
-    height:400px;
-    background-color:white;
+    width:600px;
+    height:300px;
+    margin-top:-520px;
+    margin-left:640px;
+    background-image: url(images/holder_bg.png);
+    border-radius:10px;
     display:none;
     position:absolute;
-    margin-top:-600px;
-    margin-left:690px;
-    border:solid 2px black;
 }
 #juhani {
     margin-top:25px;
     margin-left:140px;
+	cursor:pointer;
+    border-radius:10px;
 }
 #juhaninfo {
-    width:500px;
-    height:400px;
-    background-color:white;
+    width:600px;
+    height:300px;
+    margin-top:-520px;
+    margin-left:640px;
+    background-image: url(images/holder_bg.png);
+    border-radius:10px;
     display:none;
     position:absolute;
-    margin-top:-600px;
-    margin-left:690px;
     border:solid 2px black;
 }
-#juho {
+#janne {
     float:right;
     margin-top:25px;
     margin-right:60px;
+	cursor:pointer;
+    border-radius:10px;
 }
-#juhoinfo {
-    width:500px;
-    height:400px;
-    background-color:white;
+#janneinfo {
+    width:600px;
+    height:300px;
+    margin-top:-520px;
+    margin-left:640px;
+    background-image: url(images/holder_bg.png);
+    border-radius:10px;
     display:none;
     position:absolute;
-    margin-top:-600px;
-    margin-left:690px;
     border:solid 2px black;
 }
 #kalle {
     margin-top:45px;
     margin-left:60px;
+	cursor:pointer;
+    border-radius:10px;
 }
 #kalleinfo {
-    width:500px;
-    height:400px;
-    background-color:white;
+    width:600px;
+    height:300px;
+    margin-top:-520px;
+    margin-left:640px;
+    background-image: url(images/holder_bg.png);
+    border-radius:10px;
     display:none;
     position:absolute;
-    margin-top:-600px;
-    margin-left:690px;
     border:solid 2px black;
 }
 #maiju {
     margin-top:45px;
     margin-left:140px;
+	cursor:pointer;
+    border-radius:10px;
 }
 #maijuinfo {
-    width:500px;
-    height:400px;
-    background-color:white;
+    width:600px;
+    height:300px;
+    margin-top:-520px;
+    margin-left:640px;
+    background-image: url(images/holder_bg.png);
+    border-radius:10px;
     display:none;
     position:absolute;
-    margin-top:-600px;
-    margin-left:690px;
     border:solid 2px black;
 }
 #mikko {
     float:right;
     margin-right:60px;
     margin-top:45px;
+	cursor:pointer;
+    border-radius:10px;
 }
 #mikkoinfo {
-    width:500px;
-    height:400px;
-    background-color:white;
+    width:600px;
+    height:300px;
+    margin-top:-520px;
+    margin-left:640px;
+    background-image: url(images/holder_bg.png);
+    border-radius:10px;
     display:none;
     position:absolute;
-    margin-top:-600px;
-    margin-left:690px;
     border:solid 2px black;
+}
+.tekijätfont {
+    color: #FFFFFF;
+    font-size:15px;
+    padding-left:10px;
+    padding-top:10px;
+}
+/*esittelyikkunan backnuoli*/
+.close {
+	cursor:pointer;
+	padding:5px;
+}
+/*hoverit*/
+.picshadow {
+	box-shadow: 0px 0px 4px 4px #a6a6a6;
+}
+/*hoverit*/
+.shadow {
+	box-shadow:0px 0px 10px 10px #ddd;
+}
+
+#back:hover {
+    -webkit-filter: drop-shadow(2px 2px 5px #FFFFFF);
+}
+
+.dynamite {
+    margin-top:-200px;
+    margin-left:200px;
+    display:none;
 }
