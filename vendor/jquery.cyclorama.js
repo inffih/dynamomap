@@ -72,6 +72,19 @@
 			}
 
 			function smooth(dist) {
+
+				// hide unnecessary pan buttons
+				if(startPos <= -4000){
+					$($panRight).addClass('is-hidden');
+				} else if (startPos > -4000 && $($panRight).hasClass('is-hidden')) {
+					$($panRight).removeClass('is-hidden');
+				}
+				if(startPos >= -4){
+					$($panLeft).addClass('is-hidden');
+				} else if (startPos < -4 && $($panLeft).hasClass('is-hidden')) {
+					$($panLeft).removeClass('is-hidden');
+				}
+
 				if (dist > 1) {
 					if (direction == 1)
 						startPos = startPos + (dist / 10);
