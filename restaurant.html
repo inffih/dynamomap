@@ -1,4 +1,4 @@
-<html>
+<!--<html>
 <head>
     <title>Ravintola</title>
     <meta charset="UTF-8"></meta>
@@ -13,6 +13,8 @@
         <img id="dynamite" src="images/dynamit_smaller.png">
 </header>
     <section id="content">
+    <img id="pressme" src="images/pressme.png">
+    <img id="question" src="images/Questionmark.png">
     <img id="cook" src="images/Cook.png" onmouseover="kokkiMouseOver()" onmouseout="kokkiMouseOut()">
 </section>
 <div id="dsodexo">
@@ -26,4 +28,69 @@
 <script src="jquery-2.2.0.min.js"></script>
 <script src="restaurant.js"></script>
 </body>    
+</html> -->
+
+
+<html>
+<head>
+<title>Dynamomap</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Styles UNCOMMENT AS NEEDED!!!!!! -->
+<!-- Styles UNCOMMENT AS NEEDED!!!!!! -->
+<!-- Styles UNCOMMENT AS NEEDED!!!!!! -->
+<!-- Styles UNCOMMENT AS NEEDED!!!!!! -->
+<!-- Styles UNCOMMENT AS NEEDED!!!!!! -->
+<link rel="stylesheet" href="vendor/jquery.cyclorama.css">
+<!-- <link href="css/floor2.css" rel="stylesheet"> -->
+<!-- <link href="css/floor3.css" rel="stylesheet">-->
+<!-- <link href="css/lobby.css" rel="stylesheet"> -->
+ <link href="restaurant.css" rel="stylesheet"> 
+<!-- <link href="css/auditorium.css" rel="stylesheet"> -->
+<!-- <link href="css/library.css" rel="stylesheet"> -->
+<!-- <link href="css/template.css" rel="stylesheet"> -->
+
+<meta charset="utf-8">
+</head>
+<body>
+<audio id="ambient" src="ambient1.mp3" autoplay loop></audio>
+<!-- Sininen palkki näytön yläreunassa -->
+  <header>
+    <div id="headerwrap">
+      <h1>Dynamomap</h1>
+      <div class="dynamit">
+      </div>
+      <img id="volume" onclick="changeImage()" src="images/volumeon.png">
+      <div class="back"><a href="#"><img src="images/backbutton_smaller.png"/></a></div>
+  </header>
+  
+  <!-- Tumma läpinäkyvä laatikko -->
+<!-- nav div poitetaan alakerran kohteista -->
+
+      <!-- content-diviin tulee kunkin näkymän tekstit ja kuvat -->
+<div class="content">
+    <img id="shirt" src="images/shirt.png"/>
+<div id="dsodexo">
+    <img id="slogo" src="images/Sodexo_logo.PNG"/>
+<div id="cook2"></div>
+<div id="info">
+    <a id="sodexotext" href="http://www.sodexo.fi/jamk-dynamo" target="_blank">Dynamon ruokalista</a>   
+</div>
+</div>
+</div>
+
+
+  <!-- scripts -->
+  <script src="jquery-2.2.0.min.js"></script>
+  <script src="vendor/jquery.cyclorama.js"></script>
+ <!-- <script src="js/floor2.js"></script>
+  <script src="js/floor3.js"></script>
+  <script src="js/lobby.js"></script> -->
+  <script src="restaurant.js"></script>
+ <!-- <script src="js/auditorium.js"></script>
+  <script src="js/library.js"></script> -->
+
+</body>
 </html>
