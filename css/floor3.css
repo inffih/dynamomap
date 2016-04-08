@@ -75,7 +75,7 @@ header h1 {
 .dynamit {
 	height: 188px;                                                             /*Dynamiitin pituus muutettu!*/
 	width: 200px;
-	background-image: url("../img/DynamiittiV1.png");
+	background-image: url("../img/dynamit.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: inline;
