@@ -44,13 +44,10 @@ header h1 {
 
 #volume {
     border-style: none;
-		height: 28px;
-		width: 35px;
 		margin-top: 10px;
-    /*background-image: url("../img/volumeon.png");*/
     cursor: pointer;
 		display: inline;
-		float: right;
+		float: left;
 }
 
 .header img {
