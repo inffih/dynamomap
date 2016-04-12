@@ -1,7 +1,7 @@
 function changeImage() {
     var image = document.getElementById('volume');
     if (image.src.match("../img/volumeon.png")) {
-        image.src="../img/volmeoff.png";
+        image.src="../img/volumeoff.png";
     }
      else {
          image.src ="../img/volumeon.png"
