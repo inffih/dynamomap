@@ -113,11 +113,7 @@ h1 {
   max-height: 520px;
   width: 395px;
  padding-left: 10px;
-    
-  
-    
-  
-    float: left;
+float: left;
 
 }
 
@@ -131,16 +127,24 @@ h1 {
 
 }
 
+
+
 .content h1 {
 	margin-bottom: 10px;
 	font-size: 32px;
     text-align: center;
 }
 
-.content img {
-	width: 350px;
+.content_pic {
+    background-image: url(../img/floor2.jpg); 
+    background-repeat: no-repeat;
+    background-size: auto;
+	width: 400px;
+    height: 222px;
 	border-radius: 5px;
-  margin: 6px;
+  margin-top: 40px;
+    margin-left: 20px;
+    float: left
 }
 
 .content a {
