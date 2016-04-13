@@ -11,7 +11,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-    background-image: url(img/ulkokuvablur.jpg);
+    background-image: url(../img/ulkokuvablur.jpg);
 }
 
 header {
@@ -114,7 +114,7 @@ header h1 {
 #tekijät {
     width:1000px;
     height:700px;
-    background-image:url(img/holder_bg.png);
+    background-image:url(../img/holder_bg.png);
 	/*background: rgba(51, 51, 51, .7);*/
     border-radius:10px;
     display:none;
@@ -141,7 +141,7 @@ header h1 {
     height:300px;
     margin-top:-520px;
     margin-left:640px;
-    background-image: url(img/holder_bg.png);
+    background-image: url(../img/holder_bg.png);
     border-radius:10px;
     display:none;
     position:absolute;
@@ -157,7 +157,7 @@ header h1 {
     height:300px;
     margin-top:-520px;
     margin-left:640px;
-    background-image: url(img/holder_bg.png);
+    background-image: url(../img/holder_bg.png);
     border-radius:10px;
     display:none;
     position:absolute;
@@ -175,7 +175,7 @@ header h1 {
     height:300px;
     margin-top:-520px;
     margin-left:640px;
-    background-image: url(img/holder_bg.png);
+    background-image: url(../img/holder_bg.png);
     border-radius:10px;
     display:none;
     position:absolute;
@@ -192,7 +192,7 @@ header h1 {
     height:300px;
     margin-top:-520px;
     margin-left:640px;
-    background-image: url(img/holder_bg.png);
+    background-image: url(../img/holder_bg.png);
     border-radius:10px;
     display:none;
     position:absolute;
@@ -209,7 +209,7 @@ header h1 {
     height:300px;
     margin-top:-520px;
     margin-left:640px;
-    background-image: url(img/holder_bg.png);
+    background-image: url(../img/holder_bg.png);
     border-radius:10px;
     display:none;
     position:absolute;
@@ -227,7 +227,7 @@ header h1 {
     height:300px;
     margin-top:-520px;
     margin-left:640px;
-    background-image: url(img/holder_bg.png);
+    background-image: url(../img/holder_bg.png);
     border-radius:10px;
     display:none;
     position:absolute;
