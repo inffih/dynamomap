@@ -1,4 +1,4 @@
-<html>
+<!--<html>
 <head>
 <title></title>
 <link href="css/floor2.css" rel="stylesheet"> 
@@ -6,28 +6,28 @@
 </head>
 <body>
 
-<!-- Sininen palkki näytön yläreunassa -->
+Sininen palkki näytön yläreunassa 
 <header class="header">
 <audio id="sound" src="sounds/ambient2.mp3" autoplay loop></audio>
 <p id="dynamo">DYNAMO-Map</p>
 <img id="volume" onclick="changeImage()" onclick="mute()" src="img/volumeon.png"></header>
 
-<!-- Takaisin-nuoli. Omassa divissään sijoittelun takia -->
+ Takaisin-nuoli. Omassa divissään sijoittelun takia 
 <div class="takaisin">
     <a href=""><img src="img/takaisin.png"></a>
 </div>
 
-<!-- Dynamiitti -->
+ Dynamiitti 
 <div class="dynamit">
 	<img src="img/dynamit.png">
 </div>
 
 
-<!-- Tumma läpinäkyvä laatikko -->
+Tumma läpinäkyvä laatikko 
 <div class="holder">
 	
 <!-- Navigointi-divissä on "hissinapit". Tän voi poistaa kokonaan kun tekee muita näkymiä.
-    Keskitys-divillä keskitetään -->
+    Keskitys-divillä keskitetään 
 		<div class="navigointi">
 
 		  <ul class="nav nav-tabs" role="tablist">
@@ -40,7 +40,7 @@
 		  
 		</div>
 
-<!-- sisalto-diviin tulee kunkin näkymän tekstit ja kuvat -->
+<!-- sisalto-diviin tulee kunkin näkymän tekstit ja kuvat 
 		<div class="sisalto">
 		<h1>Palasin juuri "Playboy-koekuvauksista"</h1>
             <img src="img/k1.jpg">
@@ -70,6 +70,100 @@
     
 <script src="vendor/jquery-2.2.0.min.js"></script>
 <script src="js/floor2.js"></script>
+
+</body>
+</html> -->
+
+<html>
+<head>
+<title>Dynamomap</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Styles UNCOMMENT AS NEEDED!!!!!! -->
+<!-- Styles UNCOMMENT AS NEEDED!!!!!! -->
+<!-- Styles UNCOMMENT AS NEEDED!!!!!! -->
+<!-- Styles UNCOMMENT AS NEEDED!!!!!! -->
+<!-- Styles UNCOMMENT AS NEEDED!!!!!! -->
+<link rel="stylesheet" href="vendor/jquery.cyclorama.css">
+ <link href="css/floor2.css" rel="stylesheet"> 
+<!-- <link href="css/floor3.css" rel="stylesheet">-->
+<!-- <link href="css/lobby.css" rel="stylesheet"> -->
+<!-- <link href="css/restaurant.css" rel="stylesheet"> -->
+<!-- <link href="css/auditorium.css" rel="stylesheet"> -->
+<!-- <link href="css/library.css" rel="stylesheet"> -->
+<!-- <link href="css/template.css" rel="stylesheet"> -->
+
+<meta charset="utf-8">
+</head>
+<body>
+
+<!-- Sininen palkki näytön yläreunassa -->
+  <header>
+    <div id="headerwrap">
+      <h1>Dynamomap</h1>
+      <div class="dynamit">
+      </div>
+        <audio id="sound" src="sounds/ambient2.mp3" autoplay loop></audio>
+       <img id="volume" onclick="changeImage()" src="img/volumeon.png">
+      <div class="back"><a href="#"><img src="img/back_button.png"/></a></div>
+  </header>
+
+  <!-- Tumma läpinäkyvä laatikko -->
+  <div class="holder">
+  <!-- nav div poitetaan alakerran kohteista -->
+  		<div class="nav">
+  		  <ul class="nav nav-tabs" role="tablist">
+  			<li><a href="#"><div class="button_elevator"><div class="center">5</div></div></a></li>
+  			<li><a href="#"><div class="button_elevator"><div class="center">4</div></div></a></li>
+  			<li><a href="#"><div class="button_elevator"><div class="center">3</div></div></a></li>
+  			<li><a href="#"><div class="button_elevator"><div class="center">2</div></div></a></li>
+  			<li><a href="#"><div class="button_elevator"><div class="center">A</div></div></a></li>
+  		  </ul>
+  		</div>
+
+      <!-- content-diviin tulee kunkin näkymän tekstit ja kuvat -->
+  		<div class="content">
+      <h1>Toinen Kerros</h1>
+        
+            
+            <div class="left_content">
+            <h2>Tilanvaraus</h2>
+                
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales orci sed elit congue mollis. Duis feugiat massa sed justo tempor egestas. Mauris id blandit massa. Maecenas commodo ligula sit amet elementum tempor. Sed aliquet vestibulum ultricies. Aliquam ullamcorper egestas mauris nec ornare. Pellentesque in erat tellus. Nullam vitae pretium neque. Donec porta purus sit amet est laoreet, quis dignissim nisi iaculis. Aenean in eleifend lacus. In aliquam scelerisque semper. Curabitur accu</P>
+            
+            </div>
+            
+            
+            <div class="right_content">
+            <h2>JAMKO</h2>
+            
+                <P>Etiam sodales sapien eget nisi ornare ullamcorper. Sed tortor nunc, commodo et sem vitae, posuere eleifend tellus. Aliquam egestas non nisl in bibendum. Curabitur semper augue id ornare mattis. Quisque ut consectetur nisi. Nulla sed ligula mauris. Praesent vitae volutpat velit. Integer quis erat risus. Donec laoreet felis nec sollicitudin luctus.</P>
+                
+              <div class="content_pic">
+            
+                </div>
+    
+                
+            </div>
+      
+      <div class="content_pic">
+            
+      </div>
+
+	</div>
+
+  <!-- scripts -- >
+  <script src="vendor/jquery-2.2.0.min.js"></script>
+  <script src="vendor/jquery-2.2.0.min.js"></script>
+  <script src="vendor/jquery.cyclorama.js"></script>
+  --><script src="js/floor2.js"></script><!--
+  <script src="js/floor3.js"></script>
+  <script src="js/lobby.js"></script>
+  <script src="js/restaurant.js"></script>
+  <script src="js/auditorium.js"></script>
+  <script src="js/library.js"></script> -->
 
 </body>
 </html>

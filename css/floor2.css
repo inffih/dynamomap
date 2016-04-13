@@ -1,106 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background: #0b0b0b;
+	font-family: calibri, arial;
+	background: #fff;
 	background-image: url(../img/elevatorblur.jpg);
 	background-repeat:no-repeat;
-	
-	/*Taustakuva venyy koko näytölle*/
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-.header {
-    background-color:#00497d;
-    height:80px;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-}
-.takaisin img {
-	max-width: 100px;
+header {
+	padding-top: 10px;
 	position: fixed;
-		left: 23%;
-		top: 65px;
-		
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	box-shadow: 1px 5px 15px -2px #000000;
+	background-color: #00497d;
+	color: #ffffff;
+	font-size: 40px;
 }
 
-.dynamit img {
-	max-width: 135px;
-		position: fixed;
-		right: 15%;
-		top: 3px;
-	z-index: 9999;
-
+#headerwrap {
+	width: 1024px;
+	height: 50px;
+	margin: auto;
 }
 
-#dynamo {
-    margin-top:20px;
-    margin-left:100px;
-    border-style:none;
-    background-color:#00497d;
-    font-size:30px;
-    font-weight:800;
-    color:white;
-    text-shadow: 2px 2px 2px #00004d;
+header h1 {
+	font-family: calibri, sans-serif;
+	font-size: 32px;
+	color: white;
+	float: left;
+	display: inline;
 }
+
 #volume {
     border-style: none;
-    background-image: url(../img/volumeon.png);
-    cursor:pointer;
-    position:fixed;
-    margin-top:-60px;
-    margin-left:70%
+		margin-top: 10px;
+    cursor: pointer;
+		display: inline;
+		float: left;
 }
 
+.header img {
+	position: fixed;
+	top: 5px;
+	right: 20%;
+	width: 40px;
+}
+
+.back {
+	margin-top: -115px;
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.back img {
+	width: 80px;
+}
+
+.dynamit {
+	height: 198px;
+	width: 200px;
+	background-image: url("../img/dynamit.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline;
+	margin-left: 600px;
+	float: left;
+}
 
 h1 {
 	font-size: 24px;
 }
 
 .holder {
-/*	position: fixed;
-		top: 150px;
-		left: 23%;*/
-    margin-top: 190px;
-    margin-left: auto;
-    margin-right: auto;
+	padding-top: 20px;
+  margin-top: 190px;
+  margin-left: auto;
+  margin-right: auto;
 	height: 520px;
 	width: 1024px;
 	border-radius: 10px;
 	background-image: url(../img/holder_bg.png);
 }
 
-.sisalto {
+.content {
 	color: #ffffff;
 	padding: 15px;
 	border: 0px;
 	border-radius: 10px;
-/*	border-style: solid;
-	border-color: #00497d;
-	box-shadow: 1px 7px 15px -2px #000000;*/
 	width: 950px;
 	max-height: 520px;
 	margin-top: 10px;
 	margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 25px;
+  margin-right: 20px;
+  margin-left: 25px;
+   
+}
+
+
+.left_content{
+  max-height: 520px;
+  width: 395px;
+ padding-left: 10px;
+    
+  
+    
+  
+    float: left;
 
 }
 
-.sisalto img {
+.right_content{
+    float: left;
+ max-height: 520px;
+  width: 395px;
+    margin-left: 20px;
+    padding-left: 10px;
+    
+
+}
+
+.content h1 {
+	margin-bottom: 10px;
+	font-size: 32px;
+    text-align: center;
+}
+
+.content img {
 	width: 350px;
 	border-radius: 5px;
-    float: right;
-    margin: 6px;
+  margin: 6px;
 }
 
-.sisalto a {
+.content a {
 	color: #e6007e;
 }
 
-.navigointi {
+.nav {
 	background: none;
 	float: left;
 	width: auto;
@@ -111,19 +158,18 @@ h1 {
 
 }
 
-.navigointi ul {
+.nav ul {
 	list-style: none;
 	padding: 0px;
 }
 
-.navigointi li a {
+.nav li a {
 	text-align:left;
 	color: #ffffff;
 	text-decoration: none;
 }
 
-/* Hissinapin piirtäminen */
-.linkki {
+.button_elevator {
 	border: 1px;
 	border-style: solid;
 	border-color: #00497d;
@@ -132,13 +178,26 @@ h1 {
 	width: 50px;
 	border-radius: 100px;
 	box-shadow: 1px 8px 15px -2px #000000;
-    box-shadow: 4px 3px 3px -4px #ffffff inset;
+  box-shadow: 4px 3px 3px -4px #ffffff inset;
 	padding: 20px;
 	margin: 4px;
 }
 
-/* Hissinapin sisällön sijoittelu */
-.keskitys {
+.button_elevator:hover {
+	background: #e6007e;
+	border-color: #e6007e;
+	box-shadow: 4px 3px 3px -4px #E3F1FA inset;
+	color: #C4DFF2;
+}
+
+.button_isactive {
+	background: #e6007e;
+	border-color: #e6007e;
+	box-shadow: 4px 3px 3px -4px #E3F1FA inset;
+	color: #C4DFF2;
+}
+
+.center {
 	padding-top: 0px;
 	padding-left: 13px;
 	font-size: 40px;
