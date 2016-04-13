@@ -127,7 +127,7 @@ header h1 {
 .dynamit {
 	height: 198px;
 	width: 200px;
-	background-image: url("img/dynamit_smaller.png");
+	background-image: url("../img/dynamit.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: inline;
@@ -165,7 +165,7 @@ h1 {
     width:300px;
     height:400px;
     margin-top:30px;
-    background-image: url(img/cook_das.png);
+    background-image: url(../img/cook_das.png);
     background-repeat: no-repeat;
 }
 #info {
