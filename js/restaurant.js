@@ -35,11 +35,11 @@ function kokkiMouseOut() {
 
 $("document").ready(function(e) {
     
-    $("#shirt").click(function(e) {
+    $("#shirt, #sback").click(function(e) {
         $("#dsodexo").fadeToggle(1000);
     });
 
-  $('body').css('background-image', 'url(images/ruokala3.png)');
+  $('body').css('background-image', 'url(images/ruokala.jpg)');
     
 });
     
