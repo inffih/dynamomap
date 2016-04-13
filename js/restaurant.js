@@ -1,10 +1,10 @@
 //äänentoisto
 function changeImage() {
     var image = document.getElementById('volume');
-    if (image.src.match("../img/volumeon.png")) {
-        image.src="../img/volumeoff.png";
+    if (image.src.match("img/volumeon.png")) {
+        image.src="img/volumeoff.png";
     } else {
-        image.src = "../img/volumeon.png";
+        image.src = "img/volumeon.png";
     }
 }
 
@@ -17,19 +17,19 @@ document.getElementById('volume').addEventListener('click',function(e) {
 
 function kokkiMouseOver() {
     var image = document.getElementById('cook');
-       if (image.src.match("../img/cook_colourless.png")) {
-        image.src="../img/Cook_colored.png";
+       if (image.src.match("img/cook_colourless.png")) {
+        image.src="img/Cook_colored.png";
     } else {
-        image.src = "../img/Cook_colourless.png";
+        image.src = "img/Cook_colourless.png";
     }
 }
 
 function kokkiMouseOut() {
     var image = document.getElementById('cook');
-       if (image.src.match("../img/cook_colored.png")) {
-        image.src="../img/Cook_colored.png";
+       if (image.src.match("img/cook_colored.png")) {
+        image.src="img/Cook_colored.png";
     } else {
-        image.src = "../img/cook_colourless.png";
+        image.src = "img/cook_colourless.png";
     }
 }
 
@@ -39,7 +39,7 @@ $("document").ready(function(e) {
         $("#dsodexo").fadeToggle(1000);
     });
 
-  $('body').css('background-image', 'url(../img/ruokala.jpg)');
+  $('body').css('background-image', 'url(img/ruokala.jpg)');
     
 });
     
