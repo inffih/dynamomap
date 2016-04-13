@@ -39,7 +39,6 @@ $("document").ready(function(e) {
         $("#dsodexo").fadeToggle(1000);
     });
 
-  $('body').css('background-image', 'url(../img/ruokala.jpg)');
     
 });
     
