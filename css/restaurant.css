@@ -1,58 +1,4 @@
-/* html, body {
-    font-family:calibri,arial;
-    padding:0;
-    margin:0;
-    border:0;
-    background-repeat: no-repeat;
-    max-width:960px;
-}
- header 
-.header {
-    background-color:#00497d;
-    height:80px;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-}
-Dynamomap txt 
-#dynamo {
-    margin-top:20px;
-    margin-left:300px;
-    border-style:none;
-    background-color:#00497d;
-    font-size:30px;
-    font-weight:800;
-    color:white;
-    text-shadow: 2px 2px 2px #00004d;
-}
- volume button 
-#volume {
-    border-style: none;
-    background-image: url(images/volumeon.png);
-    cursor:pointer;
-    position:fixed;
-    margin-top:-60px;
-    margin-left:77%;
-}
- back button 
-#back {
-    position:fixed;
-    left:300px;
-    cursor:pointer;
-}
- dynamite img 
-#dynamite {
-    cursor:pointer;
-    z-index:10;
-    position:fixed;
-    left:70%;
-    top:3;
-} 
-#content {
-    position:absolute;
-}
-*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -100,7 +46,7 @@ header h1 {
     border-style: none;
 		height: 28px;
 		width: 35px;
-		margin-top: 10px;
+        margin-top:-30px;
         cursor: pointer;
 		display: inline;
 		float: right;
@@ -114,7 +60,8 @@ header h1 {
 }
 
 .back {
-	margin-top: -115px;
+	margin-left:-900px;
+    margin-top:20px;
 	display: block;
 	width: 80px;
 	height: 80px;
@@ -132,8 +79,9 @@ header h1 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: inline;
-	margin-left: 600px;
+	margin-left: 700px;
 	float: left;
+    margin-top:-40px;
 }
 
 h1 {
