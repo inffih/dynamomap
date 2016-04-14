@@ -10,6 +10,7 @@ $("document").ready(function() {
 	$(".menu2").click(function() {
        $("h1").css('margin-left', '380px');    
        $("h1").text('Dynamomap: Tekijät');
+       $("h1").css('color', '#e6007e');
        $("#tekijät").fadeToggle(500);
    });
     //piilotetaan menu ja dynamiitti
@@ -20,6 +21,7 @@ $("document").ready(function() {
     $("#back").click(function() {
         $("h1").css('margin-left', '430px');
         $("h1").text('Dynamomap');
+        $("h1").css('color', '#FFFFFF');
 		$(".info").hide();
         $(".menu, .dynamite").fadeToggle(500);
     });
