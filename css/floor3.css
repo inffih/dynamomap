@@ -49,7 +49,9 @@ header h1 {
 		display: inline;
 		float: left;
 }
-
+#volume:hover{
+    -webkit-filter: drop-shadow(2px 2px 5px aliceblue);
+}
 .header img {
 	position: fixed;
 	top: 5px;
@@ -69,6 +71,9 @@ header h1 {
 	width: 80px;
 }
 
+.back:hover {
+    -webkit-filter: drop-shadow(2px 2px 5px aliceblue);
+}
 .dynamit {
 	height: 188px;                                                             /*Dynamiitin pituus muutettu!*/
 	width: 200px;
@@ -83,6 +88,7 @@ header h1 {
 
 h1 {
 	font-size: 24px;
+    text-align:left;
 }
 
 .holder {
@@ -96,47 +102,6 @@ h1 {
 	background-image: url(../img/holder_bg.png);
 }
 
-/* .content {
-	color: #ffffff;
-	padding: 15px;
-	border: 0px;
-	border-radius: 10px;
-	width: 950px;
-	max-height: 520px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 25px;
-} 
-
-.content h1 {
-	margin-bottom: 10px;
-	font-size: 32px;
-    color: white;
-}
-
-.leftup {
-    background-image: url(../img/kolmoskerros.jpg);
-    width: 50%;
-    height: 50%;
-    float:left;
-}
-.leftdown {
-    width: 50%;
-    height: 50%;
-    float:left;
-}
-.rightup {
-    width: 50%;
-    height: 50%;
-    float:left;
-}
-.rightdown {
-    width: 50%;
-    height: 50%;
-    float:left;
-}
-*/
 .content img {
 	width: 410px;
     height: 250px;
@@ -152,9 +117,10 @@ h1 {
 	width:410px;
 	height:250px;
     margin-top: 0px;
-	background-image: url(../img/Math.png);
-	background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 10px;
+    text-align: center;
+    
 }
 .rightup {
     float:left;
@@ -162,6 +128,7 @@ h1 {
 	height:250px;
     margin-top: 0px;
     text-align:center;
+    border-radius: 10px;
 }
 .leftdown {
 	float:left;
@@ -169,15 +136,21 @@ h1 {
 	height:250px;
     margin-top: 0px;
 	background-color:#FFBFF6;
-    cursor: pointer;            /*POINTER!*/
+    border-radius: 10px;
 }
 .rightdown{ 		
     float:left;
 	width:410px;
 	height:250px;
     margin-top: 0px;
-	background-color:#C2FFB8; 
+    margin: 10px;
+	background-color:;
+    border-radius: 10px;
+    text-align: center;
 }
+
+
+/*NAVIGATION BAR*/
 
 .nav {
 	background: none;
@@ -200,6 +173,8 @@ h1 {
 	color: #ffffff;
 	text-decoration: none;
 }
+
+/*BUTTONSS*/
 
 .button_elevator {
 	border: 1px;
@@ -234,37 +209,36 @@ h1 {
 	padding-left: 13px;
 	font-size: 40px;
 } 
-/*POP UP KOKEILUA */
 
 
 /*SYDÄMMEN PIIRTO*/
 .heart {
   background-color: #e6007e;
   display: inline-block;
-  height: 120px;
-  margin:70px;
-    margin-left: 100px;
+  height: 90px;
+  margin:50px;
+    margin-left: 50px;
   position:inherit;
   top: 0;
   transform: rotate(-45deg);
-  width: 120px;
+  width: 90px;
 }
 
 .heart:before, .heart:after {
   content: "";
   background-color: #e6007e;
   border-radius: 50%;
-  height: 120px;
+  height: 90px;
   position: absolute;
-  width: 120px;
+  width: 90px;
 }
 
 .heart:before {
-  top: -60px;
+  top: -50px;
   left: 0;
 }
 
 .heart:after {
-  left: 60px;
+  left: 50px;
   top: 0;
 }

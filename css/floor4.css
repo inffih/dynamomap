@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: calibri, arial;
+	background: #0b0b0b;
+	background-image: url(../img/elevatorblur.jpg);
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    color: white;
+}
+
+/*HEADER*/
+
+header {
+	padding-top: 10px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	box-shadow: 1px 5px 15px -2px #000000;
+	background-color: #00497d;
+	color: #ffffff;
+	font-size: 40px;
+}
+
+#headerwrap {
+	width: 1024px;
+	height: 50px;
+	margin: auto;
+}
+
+header h1 {
+	font-family: calibri, sans-serif;
+	font-size: 32px;
+	color: white;
+	float: left;
+	display: inline;
+}
+
+.header img {
+	position: fixed;
+	top: 5px;
+	right: 20%;
+	width: 40px;
+}
+
+/*VOLUME-BUTTON*/
+
+#volume {
+    border-style: none;
+		margin-top: 10px;
+    cursor: pointer;
+		display: inline;
+		float: left;
+}
+#volume:hover{
+    -webkit-filter: drop-shadow(2px 2px 5px aliceblue);
+}
+
+/*BACK-BUTTON*/
+
+.back {
+	margin-top: -115px;
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.back img {
+	width: 80px;
+}
+.back:hover {
+    -webkit-filter: drop-shadow(2px 2px 5px aliceblue);
+}
+.dynamit {
+	height: 188px;                                                             /*Dynamiitin pituus muutettu!*/
+	width: 200px;
+	background-image: url("../img/dynamit.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline;
+	margin-left: 600px;
+    margin-bottom: 0px;
+	float: left;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+.holder {
+	padding-top: 20px;
+  margin-top: 190px;
+  margin-left: auto;
+  margin-right: auto;
+	height: 520px;
+	width: 1024px;
+	border-radius: 10px;
+	background-image: url(../img/holder_bg.png);
+}
+
+.content img {
+	width: 410px;
+    height: 250px;
+	border-radius: 5px;
+}
+
+.content a {
+	color: #e6007e;
+}
+
+/* CONTENTS */
+
+.leftup {
+	float:left;
+	width:410px;
+	height:250px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.rightup {
+    float:right;
+	width:410px;
+	height:250px;
+    margin-top: 0px;
+    text-align:center;
+    background-image: url(../img/Math.png);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+.leftdown {
+	float:left;
+	width:410px;
+	height:250px;
+    margin-top: 0px;
+	background-image: url(../img/adobekuvat.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.rightdown{ 		
+    float:right;
+	width:410px;
+	height:250px;
+    margin-top: 0px;
+    margin: 10px;
+	background-color:;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/*NAVIGATION BAR*/
+
+.nav {
+	background: none;
+	float: left;
+	width: auto;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+
+.nav ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.nav li a {
+	text-align:left;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*BUTTONS*/
+
+.button_elevator {
+	border: 1px;
+	border-style: solid;
+	border-color: #00497d;
+	background: #00497d;
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	box-shadow: 1px 8px 15px -2px #000000;
+  box-shadow: 4px 3px 3px -4px #ffffff inset;
+	padding: 20px;
+	margin: 4px;
+}
+
+.button_elevator:hover {
+	background: #e6007e;
+	border-color: #e6007e;
+	box-shadow: 4px 3px 3px -4px #E3F1FA inset;
+	color: #C4DFF2;
+}
+
+.button_isactive {
+	background: #e6007e;
+	border-color: #e6007e;
+	box-shadow: 4px 3px 3px -4px #E3F1FA inset;
+	color: #C4DFF2;
+}
+
+.center {
+	padding-top: 0px;
+	padding-left: 13px;
+	font-size: 40px;
+} 
+/*POP UP KOKEILUA */

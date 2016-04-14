@@ -1,3 +1,4 @@
+// VOLUME BUTTON
 function changeImage() {
     var image = document.getElementById('volume');
     if (image.src.match("img/volumeon.png")) {
@@ -13,6 +14,10 @@ document.getElementById('volume').addEventListener('click',function(e) {
     x.muted = !x.muted;
     e.preventDefault();
 }, false);
+
+
+
+
 /*Matematiikkatehtävä
 function openWindow() {
     var newWindow = window.open("floor3_math.html", "_blank", "width=960, height=720");
@@ -42,14 +47,6 @@ function mathMouseOut() {
             });
         });
 */
-//Documentti luotu
-$("document").ready(function(e) {
-    
-    // Näytä tekstiä
-    $("#math").click(function (e) {
-       $(".leftup").load("3floor_math.html");
-        $("#math").fadeOut(3000)
-    });
-    
-    
-});
+
+
+
