@@ -65,7 +65,7 @@ $("document").ready(function() {
     
     $("#maiju").mouseover(function() {
        $("h1").text('Maiju Schreck');
-       $("h1").css('margin-left', '440px');    
+       $("h1").css('margin-left', '400px');    
     });
     $("#maiju").mouseout(function() {
        $("h1").text('Dynamomap: Tekijät');
