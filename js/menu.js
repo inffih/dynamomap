@@ -27,66 +27,11 @@ $("document").ready(function() {
         $("#tekijät").hide();
     });
     
-    $("#erika").mouseover(function() {
-       $("h1").text('Erika Helin');
-       $("h1").css('margin-left', '440px');    
-    });
-    $("#erika").mouseout(function() {
-       $("h1").text('Dynamomap: Tekijät');
-       $("h1").css('margin-left', '380px');    
-    });
-    
-    $("#juhani").mouseover(function() {
-       $("h1").text('Juhani Haverinen');
-       $("h1").css('margin-left', '400px');    
-    });
-    $("#juhani").mouseout(function() {
-       $("h1").text('Dynamomap: Tekijät');
-       $("h1").css('margin-left', '380px');    
-    });
-    
-    $("#janne").mouseover(function() {
-       $("h1").text('Janne Rantanen');
-       $("h1").css('margin-left', '400px');    
-    });
-    $("#janne").mouseout(function() {
-       $("h1").text('Dynamomap: Tekijät');
-       $("h1").css('margin-left', '380px');    
-    });
-    
-    $("#kalle").mouseover(function() {
-       $("h1").text('Kalle Sedergren');
-       $("h1").css('margin-left', '400px');    
-    });
-    $("#kalle").mouseout(function() {
-       $("h1").text('Dynamomap: Tekijät');
-       $("h1").css('margin-left', '380px');    
-    });
-    
-    $("#maiju").mouseover(function() {
-       $("h1").text('Maiju Schreck');
-       $("h1").css('margin-left', '400px');    
-    });
-    $("#maiju").mouseout(function() {
-       $("h1").text('Dynamomap: Tekijät');
-       $("h1").css('margin-left', '380px');    
-    });
-    
-    $("#mikko").mouseover(function() {
-       $("h1").text('Mikko Karjalainen');
-       $("h1").css('margin-left', '400px');    
-    });
-    $("#mikko").mouseout(function() {
-       $("h1").text('Dynamomap: Tekijät');
-       $("h1").css('margin-left', '380px');    
-    });
-    
     //jokaisen oma divi avataan kuvaa klikkaamalla
     $("#erika").click(function() {
 		$(".info").fadeOut();
         $("#erikainfo").fadeIn(500);
     });
-    
     $(".close").click(function() {
         $("#erikainfo").fadeOut(500);
     });
