@@ -233,6 +233,14 @@ header h1 {
     position:absolute;
     border:solid 2px black;
 }
+.tekijätunderline {
+    color: #FFFFFF;
+    font-size:15px;
+    padding-left:10px;
+    padding-top:10px;
+    text-decoration:underline;
+    font-weight: 700;
+}
 .tekijätfont {
     color: #FFFFFF;
     font-size:15px;
