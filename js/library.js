@@ -1,21 +1,46 @@
 //document ready
 $("document").ready(function(e) {
     
-    // books(Lainattavat)image click event
+    //Tietojen lataus (Lainattavat kuva)
     $("#books").click(function (e) {
-       $(".text").load("../pages/books.html") 
+       $(".text").load("/pages/books.html");
+        $( this ).attr( "src", "img/books_pink.png" );
+        
+        // Toisten kuvien vaihtaminen
+        $("#open").attr("src", "img/open_white.png");
+        $("#computer").attr("src", "img/computer_white.png");
+        
     });
     
-    //  open(aukioloajat)image click event 
+    
+    //  Tietojen lataus (Aukioloajat kuva)
     $("#open").click(function (e) {
-       $(".text").load("../pages/open.html") 
+       $(".text").load("/pages/open.html");
+       $( this ).attr( "src", "img/open_pink.png" );
+        
+        // Toisten kuvien vaihtaminen
+        $("#books").attr("src", "img/books_white.png");
+        $("#computer").attr("src", "img/computer_white.png");
     });
     
-    // computer(Linkit)image click event
+    
+    // Tietojen lataus (Linkit kuva) ja kuvan vaihtaminen
     $("#computer").click(function (e) {
-       $(".text").load("../pages/computer.html") 
+       $(".text").load("/pages/computer.html");
+        $( this ).attr( "src", "img/computer_pink.png" );
+        
+        //Toisten kuvien vaihtaminen
+        $("#open").attr("src", "img/open_white.png");
+        $("#books").attr("src", "img/books_white.png");
     });
     
     
+    // kuvien hoveri kun hiiri on päällä
+    $( "#books, #open, #computer" ).hover(
+        function(e) {
+                $( this ).addClass( "imgshadow" );
+        }, function(e) {
+                $( this ).removeClass( "imgshadow" );
+            });
     
 });
