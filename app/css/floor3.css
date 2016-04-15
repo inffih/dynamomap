@@ -22,7 +22,8 @@
 	width:410px;
 	height:250px;
   margin-top: 0px;
-	background-color:#FFBFF6;
+    background-image: url(/app/img/floo3computers.png);
+    background-repeat: no-repeat;
   border-radius: 10px;
 }
 

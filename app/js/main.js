@@ -13,12 +13,12 @@ $(document).ready(function(){
   
 
   // old audio mute function
-  // var x = $("#app_audio");
-  // document.getElementById('volume').addEventListener('click',function(e) {
-  //     e=e | window.event;
-  //     x.muted = !x.muted;
-  //     e.preventDefault();
-  // }, false);
+   var x = $("#app_audio");
+   document.getElementById('volume').addEventListener('click',function(e) {
+       e=e | window.event;
+       x.muted = !x.muted;
+       e.preventDefault();
+   }, false);
 
   // create audio mute-toggle here
   $(function(){
