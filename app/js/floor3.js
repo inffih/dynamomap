@@ -20,11 +20,35 @@ function mathMouseOut() {
         image.src = "img/jamk_promo.jpg";
     }
 }
-
+MIKSI TÄMÄKÄÄN EI TOIMI
         $("document").ready(function(e) {
-            $("#math").click(function(e) {
+            $("#paina").click(function(e) {
                 $("#floorpopup").fadeToggle(1000);
             });
         });
-*/
+
+
+VIIMEISIMMÄT KOKEILUT 
+function myFunction() {
+    document.getElementById("demo").onclick = "red";
+}
+
+
+$(document).ready(function(){
+    
+    $('li').click(
+    function() { $('#floorpopup').fadeIn(3000); },
+    function() { $('#floorpopup').fadeOut(13000); }
+);
+$("ul li a").click(function() { $(this).parent().next().toggle("fast"); });
+}
+*/ $(document).ready(function(e){
+    //  Tietojen lataus Tietokonekuva
+    $("#computer").click(function (e) {
+       $(".leftup_3").load("pages/floor3_labra.html");
+       $( this ).attr( "src", "img/dualmonitors.jpg" );
+
+    });
+    });
+
 

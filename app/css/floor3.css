@@ -1,36 +1,45 @@
+.content{
+    height:490px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#otsikko {
+    text-align: center;
+    width: 980px;
+}
 .leftup_3 {
     float:left;
-  height: 245px;
+  height: 235px;
   width: 395px;
 }
 
 .rightup_3 {
-  float:left;
-  height: 245px;
+  float:right;
+  height: 235px;
   width: 395px;
-  text-align:center;
+    background-image: url(../img/dualmonitors.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .leftdown_3 {
 	float:left;
-  height: 245px;
+  height: 235px;
   width: 395px;
-  margin-top: 0px;
-background-image: url(../img/floo3computers.png);
+/*background-image: url(../img/floo3computers.png); 
 background-repeat: no-repeat;
-  background-size:cover;
-    z-index: -1;
+  background-size:contain;
+  position: relative;
+    cursor: pointer;*/
 }
 .leftdown_3:hover{
     -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
 }
 
 .rightdown_3{
-  float:left;
-  height: 245px;
+  float:right;
+  height: 235px;
   width: 395px;
-  margin-top: 0px;
-  border-radius: 10px;
   text-align: center;
     background-size:contain;
 }
@@ -72,3 +81,18 @@ background-repeat: no-repeat;
 
 
 /*TOGGLE KOKEILUJA*/
+#floorpopup {
+  margin-left:100px;
+  margin-top:50px;
+  background-color:pink;
+  opacity:0.95;
+  border-radius:10px;
+  width:750px;
+  height:500px;
+  display:none;
+  position:absolute;
+}
+#paina {
+    position: absolute;
+    cursor: pointer;
+}

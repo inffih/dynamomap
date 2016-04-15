@@ -1,14 +1,20 @@
+.content{
+    height:490px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .leftup {
 	float:left;
-  height: 260px;
+  height: 235px;
   width: 395px;
   margin-top: 0px;
   border-radius: 10px;
+
 }
 
 .rightup {
-  float:left;
-  height: 260px;
+  float:right;
+  height: 235px;
   width: 395px;
   margin-top: 0px;
   text-align:center;
@@ -19,7 +25,7 @@ background-repeat: no-repeat;
 
 .leftdown {
 	float:left;
-  height: 260px;
+  height: 235px;
   width: 395px;
   margin-top: 0px;
 	background-image: url("../img/adobekuvat.png");
@@ -29,11 +35,16 @@ background-repeat: no-repeat;
 }
 
 .rightdown{
-  float:left;
-  height: 260px;
+  float:right;
+  height: 235px;
   width: 395px;
   margin-top: 0px;
-  margin: 10px;
   border-radius: 10px;
   text-align: center;
+}
+.leftdown:hover{
+    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+}
+.rightup:hover{
+    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
 }
