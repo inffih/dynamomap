@@ -1,6 +1,4 @@
-$(document).ready(function(){
-
-  function changeImage() {
+function changeImage() {
     var image = document.getElementById('volume');
     if (image.src.match("img/volumeon.png")) {
       image.src="img/volumeoff.png";
@@ -9,6 +7,10 @@ $(document).ready(function(){
        image.src ="img/volumeon.png"
     }
   }
+
+$(document).ready(function(){
+
+  
 
   // old audio mute function
   // var x = $("#app_audio");

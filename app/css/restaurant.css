@@ -1,15 +1,22 @@
+#rback {
+    margin-top:40px;
+    margin-left:400px;
+    cursor:pointer;
+    
+}
+#rback:hover {
+  -webkit-filter: drop-shadow(2px 2px 5px #FFFFFF);
+}
 #shirt {
   position: absolute;
-  top: 500px;
-  left: 500px;
-  width: 100px;
-  height: 100px;
+  top: 402px;
+  left: 922px;
   cursor:pointer;
 }
 
 #dsodexo {
   margin-left:100px;
-  margin-top:200px;
+  margin-top:50px;
   background-color:#FFF;
   opacity:0.95;
   border-radius:10px;
