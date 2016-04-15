@@ -1,0 +1,39 @@
+.leftup {
+	float:left;
+	width:410px;
+	height:250px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+.rightup {
+  float:right;
+	width:410px;
+	height:250px;
+  margin-top: 0px;
+  text-align:center;
+  background-image: url(../img/Math.png);
+	background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.leftdown {
+	float:left;
+	width:410px;
+	height:250px;
+  margin-top: 0px;
+	background-image: url(../img/adobekuvat.png);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+
+.rightdown{
+  float:right;
+	width:410px;
+	height:250px;
+  margin-top: 0px;
+  margin: 10px;
+	background-color:;
+  border-radius: 10px;
+  text-align: center;
+}

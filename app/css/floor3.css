@@ -1,0 +1,70 @@
+.leftup_3 {
+	float:left;
+	width:410px;
+	height:250px;
+  margin-top: 0px;
+  background-size: contain;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.rightup_3 {
+  float:left;
+	width:410px;
+	height:250px;
+  margin-top: 0px;
+  text-align:center;
+  border-radius: 10px;
+}
+
+.leftdown_3 {
+	float:left;
+	width:410px;
+	height:250px;
+  margin-top: 0px;
+	background-color:#FFBFF6;
+  border-radius: 10px;
+}
+
+.rightdown_3 {
+  float:left;
+	width:410px;
+	height:250px;
+  margin-top: 0px;
+  margin: 10px;
+	background-color:;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*SYDÄMMEN PIIRTO*/
+.heart {
+  background-color: #e6007e;
+  display: inline-block;
+  height: 90px;
+  margin:50px;
+  margin-left: 50px;
+  position:inherit;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 90px;
+}
+
+.heart:before, .heart:after {
+  content: "";
+  background-color: #e6007e;
+  border-radius: 50%;
+  height: 90px;
+  position: absolute;
+  width: 90px;
+}
+
+.heart:before {
+  top: -50px;
+  left: 0;
+}
+
+.heart:after {
+  left: 50px;
+  top: 0;
+}

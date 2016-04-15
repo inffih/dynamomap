@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<title>Dynamomap</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="vendor/jquery.cyclorama.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/floor2.css">
+<link rel="stylesheet" href="css/floor3.css">
+<link rel="stylesheet" href="css/floor4.css">
+<link rel="stylesheet" href="css/library.css">
+<link rel="stylesheet" href="css/lobby.css">
+<link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="css/restaurant.css">
+
+</head>
+<body>
+
+<!-- Sininen palkki näytön yläreunassa -->
+  <header>
+    <div id="headerwrap">
+      <h1>Dynamomap</h1>
+      <img id="menuicon" onclick="location.href='/#/';" src="img/three.svg"/>
+      <div class="dynamit"></div>
+      <img id="volume" onclick="changeImage()" src="img/volumeon.png">
+  </header>
+
+
+  <!-- Change audio src from angular controller -->
+  <!-- <audio id="app_audio" src="sounds/typingcomputer.mp3" autoplay loop></audio> -->
+
+  <div ng-view>
+
+  <!-- scripts -->
+  <script src="vendor/jquery-2.2.0.min.js"></script>
+  <script src="vendor/jquery.cyclorama.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.3/angular-route.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/floor2.js"></script>
+  <script src="js/floors.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/floor3.js"></script>
+  <script src="js/lobby.js"></script>
+  <script src="js/restaurant.js"></script>
+  <script src="js/auditorium.js"></script>
+  <script src="js/library.js"></script>
+
+  </div>
+
+</body>
+</html>

@@ -1,21 +1,62 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
 
+#menubg {
+	z-index: -10;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url("../img/ulkokuvablur.jpg");
+	background-size: cover;
+}
+
+#restaurantbg {
+	z-index: -10;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url("../img/ruokala.jpg");
+	background-size: cover;
+}
+
+#floorsbg {
+	z-index: -10;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url("../img/elevatorblur.jpg");
+	background-size: cover;
+}
+
+#librarybg {
+	z-index: -10;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url("../img/library.png");
+	background-size: cover;
+}
+
 body {
 	font-family: calibri, arial;
-	background: #0b0b0b;
-	background-image: url(../img/elevatorblur.jpg);
+	/*background: #fff;
+	background-image: url(../img/ulkokuvablur.jpg);
 	background-repeat:no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-    color: white;
+	background-size: cover;*/
 }
-
-/*HEADER*/
 
 header {
 	padding-top: 10px;
@@ -44,27 +85,37 @@ header h1 {
 	display: inline;
 }
 
+#volume {
+  border-style: none;
+	height: 28px;
+	width: 35px;
+	margin-top: 10px;
+  background-image: url("../img/volumeon.png");
+  cursor: pointer;
+	display: inline;
+	float: right;
+}
+
+#menuicon {
+	margin-left: 15px;
+	margin-top: 7px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+
+#menuicon:hover {
+	-webkit-filter: drop-shadow(1px 1px 2px aliceblue);
+}
+
 .header img {
 	position: fixed;
 	top: 5px;
 	right: 20%;
 	width: 40px;
 }
-
-/*VOLUME-BUTTON*/
-
-#volume {
-    border-style: none;
-		margin-top: 10px;
-    cursor: pointer;
-		display: inline;
-		float: left;
-}
-#volume:hover{
-    -webkit-filter: drop-shadow(2px 2px 5px aliceblue);
-}
-
-/*BACK-BUTTON*/
 
 .back {
 	margin-top: -115px;
@@ -74,21 +125,33 @@ header h1 {
 	float: left;
 }
 
+#volume {
+  border-style: none;
+	margin-top: 10px;
+  cursor: pointer;
+	display: inline;
+	float: left;
+}
+#volume:hover{
+  -webkit-filter: drop-shadow(2px 2px 5px aliceblue);
+}
+
 .back img {
 	width: 80px;
 }
+
 .back:hover {
-    -webkit-filter: drop-shadow(2px 2px 5px aliceblue);
+  -webkit-filter: drop-shadow(2px 2px 5px aliceblue);
 }
+
 .dynamit {
-	height: 188px;                                                             /*Dynamiitin pituus muutettu!*/
+	height: 198px;
 	width: 200px;
 	background-image: url("../img/dynamit.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: inline;
-	margin-left: 600px;
-    margin-bottom: 0px;
+	margin-left: 555px;
 	float: left;
 }
 
@@ -107,57 +170,33 @@ h1 {
 	background-image: url(../img/holder_bg.png);
 }
 
+.content {
+	color: #ffffff;
+	padding: 15px;
+	border: 0px;
+	border-radius: 10px;
+	width: 950px;
+	max-height: 520px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 25px;
+}
+
+.content h1 {
+	margin-bottom: 10px;
+	font-size: 32px;
+}
+
 .content img {
-	width: 410px;
-    height: 250px;
+	width: 350px;
 	border-radius: 5px;
+  margin: 6px;
 }
 
 .content a {
 	color: #e6007e;
 }
-
-/* CONTENTS */
-
-.leftup {
-	float:left;
-	width:410px;
-	height:250px;
-    margin-top: 0px;
-    border-radius: 10px;
-}
-.rightup {
-    float:right;
-	width:410px;
-	height:250px;
-    margin-top: 0px;
-    text-align:center;
-    background-image: url(../img/Math.png);
-	background-repeat: no-repeat;
-    background-size: contain;
-}
-.leftdown {
-	float:left;
-	width:410px;
-	height:250px;
-    margin-top: 0px;
-	background-image: url(../img/adobekuvat.png);
-    border-radius: 10px;
-    background-repeat: no-repeat;
-}
-.rightdown{ 		
-    float:right;
-	width:410px;
-	height:250px;
-    margin-top: 0px;
-    margin: 10px;
-	background-color:;
-    border-radius: 10px;
-    text-align: center;
-}
-
-
-/*NAVIGATION BAR*/
 
 .nav {
 	background: none;
@@ -180,8 +219,6 @@ h1 {
 	color: #ffffff;
 	text-decoration: none;
 }
-
-/*BUTTONS*/
 
 .button_elevator {
 	border: 1px;
@@ -215,5 +252,4 @@ h1 {
 	padding-top: 0px;
 	padding-left: 13px;
 	font-size: 40px;
-} 
-/*POP UP KOKEILUA */
+}
