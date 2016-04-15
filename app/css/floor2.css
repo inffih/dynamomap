@@ -20,7 +20,7 @@
 }
 
 .content_pic {
-  background-image: url(../img/floor2.jpg);
+  background-image: url(./img/floor2.jpg);
   background-repeat: no-repeat;
   background-size: auto;
 	width: 400px;

@@ -69,7 +69,7 @@
 #tekijät {
   width:920px;
   height:700px;
-  background-image:url(../img/holder_bg.png);
+  background-image:url(./img/holder_bg.png);
 	/*background: rgba(51, 51, 51, .7);*/
   border-radius:10px;
   display:none;
@@ -96,7 +96,7 @@
   height:300px;
   margin-top:-520px;
   margin-left:640px;
-  background-image: url(../img/holder_bg.png);
+  background-image: url(./img/holder_bg.png);
   border-radius:10px;
   display:none;
   position:absolute;
@@ -112,7 +112,7 @@
   height:300px;
   margin-top:-520px;
   margin-left:640px;
-  background-image: url(../img/holder_bg.png);
+  background-image: url(./img/holder_bg.png);
   border-radius:10px;
   display:none;
   position:absolute;
@@ -130,7 +130,7 @@
   height:300px;
   margin-top:-520px;
   margin-left:640px;
-  background-image: url(../img/holder_bg.png);
+  background-image: url(./img/holder_bg.png);
   border-radius:10px;
   display:none;
   position:absolute;
@@ -147,7 +147,7 @@
   height:300px;
   margin-top:-520px;
   margin-left:640px;
-  background-image: url(../img/holder_bg.png);
+  background-image: url(./img/holder_bg.png);
   border-radius:10px;
   display:none;
   position:absolute;
@@ -164,7 +164,7 @@
   height:300px;
   margin-top:-520px;
   margin-left:640px;
-  background-image: url(../img/holder_bg.png);
+  background-image: url(./img/holder_bg.png);
   border-radius:10px;
   display:none;
   position:absolute;
@@ -182,7 +182,7 @@
   height:300px;
   margin-top:-520px;
   margin-left:640px;
-  background-image: url(../img/holder_bg.png);
+  background-image: url(./img/holder_bg.png);
   border-radius:10px;
   display:none;
   position:absolute;
