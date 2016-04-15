@@ -12,7 +12,7 @@
 	height:250px;
   margin-top: 0px;
   text-align:center;
-  background-image: url(./img/Math.png);
+  background-image: url("../img/Math.png");
 	background-repeat: no-repeat;
   background-size: contain;
 }
@@ -22,7 +22,7 @@
 	width:410px;
 	height:250px;
   margin-top: 0px;
-	background-image: url(./img/adobekuvat.png);
+	background-image: url("../img/adobekuvat.png");
   border-radius: 10px;
   background-repeat: no-repeat;
 }

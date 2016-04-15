@@ -14,7 +14,7 @@
   left: 4463px;
   height: 441px;
   width: 682px;
-  background-image: url('./img/panorama/highlight_restaurant.png');
+  background-image: url('../img/panorama/highlight_restaurant.png');
   -webkit-transition: opacity 0.3s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
@@ -28,7 +28,7 @@
   left: 3988px;
   height: 214px;
   width: 352px;
-  background-image: url('./img/panorama/highlight_library.png');
+  background-image: url('../img/panorama/highlight_library.png');
   -webkit-transition: opacity 0.3s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
@@ -42,7 +42,7 @@
   left: 2540px;
   height: 533px;
   width: 1115px;
-  background-image: url('./img/panorama/highlight_elevator.png');
+  background-image: url('../img/panorama/highlight_elevator.png');
   -webkit-transition: opacity 0.3s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
@@ -56,7 +56,7 @@
   left: 307px;
   height: 376px;
   width: 498px;
-  background-image: url('./img/panorama/highlight_auditorium.png');
+  background-image: url('../img/panorama/highlight_auditorium.png');
   -webkit-transition: opacity 0.3s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;

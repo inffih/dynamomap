@@ -10,7 +10,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url("./img/ulkokuvablur.jpg");
+	background-image: url("../img/ulkokuvablur.jpg");
 	background-size: cover;
 }
 
@@ -21,7 +21,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url("./img/ruokala.jpg");
+	background-image: url("../img/ruokala.jpg");
 	background-size: cover;
 }
 
@@ -32,7 +32,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url("./img/elevatorblur.jpg");
+	background-image: url("../img/elevatorblur.jpg");
 	background-size: cover;
 }
 
@@ -43,14 +43,14 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url("./img/library.png");
+	background-image: url("../img/library.png");
 	background-size: cover;
 }
 
 body {
 	font-family: calibri, arial;
 	/*background: #fff;
-	background-image: url(../img/ulkokuvablur.jpg);
+	background-image: url(../../img/ulkokuvablur.jpg);
 	background-repeat:no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -90,7 +90,7 @@ header h1 {
 	height: 28px;
 	width: 35px;
 	margin-top: 10px;
-  background-image: url("./img/volumeon.png");
+  background-image: url("../img/volumeon.png");
   cursor: pointer;
 	display: inline;
 	float: right;
@@ -110,7 +110,7 @@ header h1 {
 	-webkit-filter: drop-shadow(1px 1px 2px aliceblue);
 }
 
-.header img {
+.header ../img {
 	position: fixed;
 	top: 5px;
 	right: 20%;
@@ -136,7 +136,7 @@ header h1 {
   -webkit-filter: drop-shadow(2px 2px 5px aliceblue);
 }
 
-.back img {
+.back ../img {
 	width: 80px;
 }
 
@@ -147,7 +147,7 @@ header h1 {
 .dynamit {
 	height: 198px;
 	width: 200px;
-	background-image: url("./img/dynamit.png");
+	background-image: url("../img/dynamit.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: inline;
@@ -167,7 +167,7 @@ h1 {
 	height: 520px;
 	width: 1024px;
 	border-radius: 10px;
-	background-image: url(./img/holder_bg.png);
+	background-image: url("../img/holder_bg.png");
 }
 
 .content {
@@ -188,7 +188,7 @@ h1 {
 	font-size: 32px;
 }
 
-.content img {
+.content ../img {
 	width: 350px;
 	border-radius: 5px;
   margin: 6px;

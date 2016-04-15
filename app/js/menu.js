@@ -8,7 +8,7 @@ $("document").ready(function() {
 	});
     //avataan tekijä-osio
 	$(".menu2").click(function() {
-       $("#tekijät").fadeToggle(500);
+       $("#tekijat").fadeToggle(500);
    });
     //piilotetaan menu ja dynamiitti
     $(".menu2").click(function() {
@@ -20,7 +20,7 @@ $("document").ready(function() {
         $(".menu, .dynamite").fadeToggle(500);
     });
     $("#back").click(function() {
-        $("#tekijät").hide();
+        $("#tekijat").hide();
     });
 
     //jokaisen oma divi avataan kuvaa klikkaamalla
