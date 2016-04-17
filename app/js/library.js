@@ -1,6 +1,14 @@
 //document ready
 $("document").ready(function(e) {
 
+  // bubble animation
+  $(".dynamit").mouseenter(function(){
+    $(".bubble").addClass("bubble-is-open");
+  });
+  $(".dynamit").mouseleave(function(){
+    $(".bubble").removeClass("bubble-is-open");
+  });
+
     //Tietojen lataus (Lainattavat kuva)
     $("#books").click(function (e) {
        $(".text").load("/pages/books.html");

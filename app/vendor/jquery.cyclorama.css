@@ -1,11 +1,14 @@
 .cyclorama {
+	clear: both;
 	position: relative;
-	top: 200px;
+	top: -14px;
 	width: 1024px;
 	height: 611px;
 	overflow: hidden;
 	box-shadow: 1px 5px 15px -2px #000000;
-	margin: auto;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 .cyclorama .pan-inner {
 	position: absolute;

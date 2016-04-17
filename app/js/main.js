@@ -10,8 +10,6 @@ function changeImage() {
 
 $(document).ready(function(){
 
-  
-
   // old audio mute function
    var x = $("#app_audio");
    document.getElementById('volume').addEventListener('click',function(e) {
