@@ -21,19 +21,11 @@ function mathMouseOut() {
     }
 }
 MIKSI TÄMÄKÄÄN EI TOIMI
+*/
+/*
         $("document").ready(function(e) {
-            $("#paina").click(function(e) {
-                $("#floorpopup").fadeToggle(1000);
-            });
+
         });
-
-
-VIIMEISIMMÄT KOKEILUT 
-function myFunction() {
-    document.getElementById("demo").onclick = "red";
-}
-
-
 $(document).ready(function(){
     
     $('li').click(
@@ -42,13 +34,25 @@ $(document).ready(function(){
 );
 $("ul li a").click(function() { $(this).parent().next().toggle("fast"); });
 }
-*/ $(document).ready(function(e){
     //  Tietojen lataus Tietokonekuva
     $("#computer").click(function (e) {
-       $(".leftup_3").load("pages/floor3_labra.html");
+       $(".leftup_3,").load("pages/floor3_labra.html");
        $( this ).attr( "src", "img/dualmonitors.jpg" );
 
     });
-    });
+*/
+$(document).ready(function(e){
+            $(".leftdown_3, #popback").click(function(e) {
+                $(".floorpopup").fadeToggle(1000);
+            });
 
+            $(".rightup_3, #popback2").click(function(e) {
+                $(".floorpopup2").fadeToggle(1000);
+            });
+
+            $(".rightdown_3, #popback3").click(function(e) {
+                $(".floorpopup3").fadeToggle(1000);
+            }); 
+
+    });
 

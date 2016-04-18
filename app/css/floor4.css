@@ -3,48 +3,150 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+#otsikko {
+    text-align: center;
+    width: 800px;
+    margin:auto;
+    margin-bottom: 20px;
+}
 .leftup {
 	float:left;
-  height: 235px;
-  width: 395px;
-  margin-top: 0px;
-  border-radius: 10px;
-
-}
-
-.rightup {
-  float:right;
-  height: 235px;
-  width: 395px;
-  margin-top: 0px;
-  text-align:center;
-  background-image: url("../img/Math.png");
-background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.leftdown {
-	float:left;
-  height: 235px;
-  width: 395px;
-  margin-top: 0px;
-	background-image: url("../img/adobekuvat.png");
-  border-radius: 10px;
-  background-repeat: no-repeat;
+    height: 210px;
+    width: 395px;
+    margin-bottom:15px;
+    background-image: url(../img/kerros4.png);
+    background-repeat: no-repeat;
     background-size: contain;
 }
-
+.leftdown {
+	float:left;
+    height: 210px;
+    width: 395px;;
+    background-image: url("../img/programming.png");
+    background-repeat: no-repeat;
+}
+.rightup {
+    float:right;
+    height: 210px;
+    width: 395px;
+    margin-bottom:15px;
+    text-align:center;
+    background-image: url("../img/Mathematicpic.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 .rightdown{
+    float:right;
+    height: 210px;
+    width: 395px;
+    margin-top: 0px;
+    background-image: url("../img/programming.png");
+    background-repeat: no-repeat;
+}
+
+/*KIRJAIMET DIVEISSÄ*/
+.leftdown p, .rightup p, .rightup p, .rightdown p{
+    text-align:center;
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+/*HOOVERIT*/
+
+.leftdown:hover, .rightup:hover, .rightdown:hover, .leftup:hover{
+    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+    cursor: pointer;
+    color:#e6007e;
+}
+
+/*FLOORPOUP*/ 
+
+.floorpopup4, .floorpopup5, .floorpopup6 {
+    margin-left:120px;
+    margin-top:0px;
+    background-image: url("../img/popupbg.png");
+    opacity:0.95;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px 4px #a6a6a6;
+    width:850px;
+    height:500px;
+    display:none;
+    position:absolute;
+}
+#popback4, #popback5, #popback6 {
   float:right;
-  height: 235px;
-  width: 395px;
-  margin-top: 0px;
-  border-radius: 10px;
+  display: block;
+	width: 80px;
+	height: 80px;
+  cursor:pointer;
+}
+
+/*POPUP 4*/
+
+#programimg {
+    background-image: url(../img/adobekuvat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-content: center;
+    width: 340px;
+    height:340px;
+    margin-left: 30px;
+    margin-top: 130px;
+    float:left;
+}
+#programtext {
+width:420px;
+  height:410px;
+  float:right;
+  margin-left:30px;
+    margin-right: 30px;
+  margin-top:20px;
   text-align: center;
 }
-.leftdown:hover{
-    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+
+/*POPUP 5*/
+
+#img {
+    background-image: url(../img/dualmonitors.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-content: center;
+    width: 280px;
+    height:210px;
+    margin-left: 50px;
+    margin-top: 130px;
+    float:left;
 }
-.rightup:hover{
-    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+#text {
+width:420px;
+  height:410px;
+  float:right;
+  margin-left:30px;
+    margin-right: 30px;
+  margin-top:30px;
+  text-align: center;
+}
+
+/*POPUP 6*/
+
+#img {
+    background-image: url(../img/dualmonitors.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-content: center;
+    width: 280px;
+    height:210px;
+    margin-left: 50px;
+    margin-top: 130px;
+    float:left;
+}
+#text {
+width:420px;
+  height:410px;
+  float:right;
+  margin-left:30px;
+    margin-right: 30px;
+  margin-top:30px;
+  text-align: center;
 }

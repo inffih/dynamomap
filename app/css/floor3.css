@@ -5,53 +5,91 @@
 }
 #otsikko {
     text-align: center;
-    width: 980px;
+    width: 900px;
+    margin-bottom: 10px;
 }
-.leftup_3 {
-    float:left;
-  height: 235px;
-  width: 395px;
-}
-
 .rightup_3 {
-  float:right;
-  height: 235px;
-  width: 395px;
-    background-image: url(../img/dualmonitors.jpg);
+    float:right;
+    height: 200px;
+    width: 395px;
+    margin: 10px;
+    background-image: url(../img/floor3sofa.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
+    background-position: bottom;
+    cursor: pointer;
+    margin-right: 235px;
 }
 
 .leftdown_3 {
 	float:left;
-  height: 235px;
-  width: 395px;
-/*background-image: url(../img/floo3computers.png); 
-background-repeat: no-repeat;
-  background-size:contain;
-  position: relative;
-    cursor: pointer;*/
+    height: 200px;
+    width: 395px;
+    background-image: url(../img/floo3computers.png); 
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    cursor: pointer;
 }
-.leftdown_3:hover{
-    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+.rightdown_3 {
+    float:right;
+    height: 200px;
+    width: 395px;
+    text-align: center;
+    background-image: url(../img/nursepic.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
 }
 
-.rightdown_3{
-  float:right;
-  height: 235px;
-  width: 395px;
-  text-align: center;
-    background-size:contain;
+/*KIRJAIMET DIVEISSÄ*/
+
+.leftdown_3 p, .rightup_3 p{
+    text-align:center;
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.rightdown_3 p{
+    text-align:center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight:bold;
+} 
+
+/*HOOVERIT*/
+
+.leftdown_3:hover, .rightup_3:hover, .rightdown_3:hover{
+    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+    cursor: pointer;
+    color:#e6007e;
+}
+.heart:hover{
+    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+}
+#popback:hover, #popback2:hover, #popback3:hover {
+    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+    cursor: pointer;
+}
+#nurseimg:hover{
+    background-image:url(../img//sexynursemove.png);
+    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+    
+}
+#floorimg3:hover{
+    -webkit-filter: drop-shadow(3px 3px 5px #FFFFFF);
+    cursor: pointer;
 }
 
 /*SYDÄMMEN PIIRTO*/
+
 .heart {
   background-color: #e6007e;
   display: inline-block;
   height: 90px;
-  margin:50px;
+  margin:45px;
   margin-left: 50px;
-  position:inherit;
+    margin-bottom: 25px;
   top: 0;
   transform: rotate(-45deg);
   width: 90px;
@@ -75,24 +113,169 @@ background-repeat: no-repeat;
   left: 50px;
   top: 0;
 }
-.heart:hover{
-    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+.hearttext {
+    font-size: 20px;
+    font-weight:bold;
 }
 
-
-/*TOGGLE KOKEILUJA*/
-#floorpopup {
-  margin-left:100px;
-  margin-top:50px;
-  background-color:pink;
-  opacity:0.95;
-  border-radius:10px;
-  width:750px;
-  height:500px;
-  display:none;
-  position:absolute;
+/*FLOORPOPUP KOKEILUJA*/
+.floorpopup, .floorpopup2, .floorpopup3 {
+    margin-left:120px;
+    margin-top:0px;
+    background-image: url("../img/popupbg.png");
+    border-radius:10px;
+    box-shadow: 0px 0px 4px 4px #a6a6a6;
+    width:850px;
+    height:500px;
+    display:none;
+    position:absolute;
 }
-#paina {
-    position: absolute;
-    cursor: pointer;
+#popback, #popback2, #popback3 {
+    float:right;
+    display: block;
+	width: 80px;
+	height: 80px;
+    cursor:pointer;
+}
+
+/*POPUP 1*/
+
+#dualimg {
+    text-align: center;
+    width: 220px;
+    height:210px;
+    margin-left: 50px;
+    margin-top: 130px;
+    float:left;
+}
+#dualtext {
+    width:420px;
+    height:420px;
+    float:right;
+    margin-left:10px;
+    margin-right:0px;
+    margin-top:70px;
+    text-align: center;
+}
+
+/*POPUP 2*/
+
+#floortext{
+    font-size: 50px;
+    margin-top:150px;
+    text-align: center;
+    position:absolute;
+}
+
+#floorimg, #floorimg2, #floorimg3{
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+}
+#floorimg {
+    background-image: url(../img/dualmonitors.png);
+    width: 285px;
+    height:210px;
+    margin:10px;
+    float:left;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+}
+
+#floorimg2 {
+    background-image: url(../img/dualmonitors2.png);
+    width: 485px;
+    height:320px; 
+    float:left;
+    margin-top:100px;
+    -webkit-animation-name: example2; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 10; /* Chrome, Safari, Opera */
+    animation-name: example2;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+#floorimg3 {
+    background-image: url(../img/dualmonitors3.png);
+    width: 185px;
+    height:110px;
+    float:left;
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+    animation-name: example3;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+}
+/*ANIMATIONEXAMPLE1*/
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:10px; top:0px;}
+    50%  {left:150px; top:150px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {right:0px; top:0px;}
+    25%  {right:450px; top:0px;}
+    50%  {right:450px; top:250px;}
+    75%  {right:0px; top:200px;}
+    100% {right:0px; top:0px;}
+}
+/*ANIMATIONEXAMPLE2*/
+@-webkit-keyframes example2 {
+    from {left:400px;}
+    to   {left:0px;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    from {left:400px;}
+    to {left:0px;}
+}
+/*ANIMATIONEXAMPLE3*/
+@-webkit-keyframes example3 {
+    0%   {left:0px; top:0px;}
+    25%  {left:700px; top:0px;}
+    50%  {left:700px; top:390px;}
+    75%  {left:0px; top:390px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:0px; top:0px;}
+    25%  {left:700px; top:0px;}
+    50%  {left:700px; top:390px;}
+    75%  {left:0px; top:390px;}
+    100% {left:0px; top:0px;}
+}
+/*POPUP 3*/
+#nurseimg {
+    background-image: url(../img/sexynurse.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-content: center;
+    width: 280px;
+    height:410px;
+    margin-left:0px;
+    margin-top: 50px;
+    float:left;
+}
+
+#nursetext {
+    width:420px;
+    height:420px;
+    float:right;
+    margin-left:10px;
+    margin-right:0px;
+    margin-top:70px;
+    text-align: center;
 }
