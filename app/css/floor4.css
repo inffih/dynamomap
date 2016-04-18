@@ -22,15 +22,15 @@
 	float:left;
     height: 210px;
     width: 395px;;
-    background-image: url("../img/programming.png");
+    background-image: url("../img/adobekuvat.png");
     background-repeat: no-repeat;
+    background-size: contain;
 }
 .rightup {
     float:right;
     height: 210px;
     width: 395px;
     margin-bottom:15px;
-    text-align:center;
     background-image: url("../img/Mathematicpic.png");
     background-repeat: no-repeat;
     background-size:cover;
@@ -45,9 +45,9 @@
 }
 
 /*KIRJAIMET DIVEISSÄ*/
-.leftdown p, .rightup p, .rightup p, .rightdown p{
+.leftdown p, .rightup p, .leftup p, .rightdown p{
     text-align:center;
-    margin-top: 70px;
+    margin-top: 60px;
     font-size: 40px;
     font-weight:bold;
 }
@@ -62,7 +62,7 @@
 
 /*FLOORPOUP*/ 
 
-.floorpopup4, .floorpopup5, .floorpopup6 {
+.floorpopup4, .floorpopup5, .floorpopup6, .floorpopup7 {
     margin-left:120px;
     margin-top:0px;
     background-image: url("../img/popupbg.png");
@@ -74,7 +74,7 @@
     display:none;
     position:absolute;
 }
-#popback4, #popback5, #popback6 {
+#popback4, #popback5, #popback6, #popback7 {
   float:right;
   display: block;
 	width: 80px;
@@ -83,6 +83,29 @@
 }
 
 /*POPUP 4*/
+
+#adobeimg {
+    background-image: url(../img/adobekuvat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-content: center;
+    width: 340px;
+    height:340px;
+    margin-left: 30px;
+    margin-top: 130px;
+    float:left;
+}
+#adobetext {
+width:420px;
+  height:410px;
+  float:right;
+  margin-left:30px;
+    margin-right: 30px;
+  margin-top:20px;
+  text-align: center;
+}
+
+/*POPUP 5*/
 
 #programimg {
     background-image: url(../img/adobekuvat.png);
@@ -105,9 +128,9 @@ width:420px;
   text-align: center;
 }
 
-/*POPUP 5*/
+/*POPUP 6*/
 
-#img {
+#blaaimg {
     background-image: url(../img/dualmonitors.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -118,7 +141,7 @@ width:420px;
     margin-top: 130px;
     float:left;
 }
-#text {
+#blaatext {
 width:420px;
   height:410px;
   float:right;
@@ -127,10 +150,9 @@ width:420px;
   margin-top:30px;
   text-align: center;
 }
+/*POPUP 7*/
 
-/*POPUP 6*/
-
-#img {
+#buuimg {
     background-image: url(../img/dualmonitors.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -141,7 +163,7 @@ width:420px;
     margin-top: 130px;
     float:left;
 }
-#text {
+#buutext {
 width:420px;
   height:410px;
   float:right;

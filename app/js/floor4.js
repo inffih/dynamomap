@@ -8,4 +8,7 @@ $(document).ready(function(e){
             $(".rightdown, #popback6").click(function(e) {
                 $(".floorpopup6").fadeToggle(1000);
             });
+            $(".leftup, #popback7").click(function(e) {
+                $(".floorpopup7").fadeToggle(1000);
+            });
         });
