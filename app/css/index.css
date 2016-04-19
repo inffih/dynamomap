@@ -3,6 +3,15 @@
 	padding: 0;
 }
 
+#logo {
+	cursor: pointer;
+}
+
+#logo:hover {
+	color: #EBFAFF;
+	text-shadow: 1px 1px 2px #999;
+}
+
 #menubg {
 	z-index: -10;
 	width: 100vw;
