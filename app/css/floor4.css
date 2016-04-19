@@ -59,7 +59,10 @@
     cursor: pointer;
     color:#e6007e;
 }
-
+#popback4:hover, #popback5:hover, #popback6:hover, #popback7:hover {
+    -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+    cursor: pointer;
+}
 /*FLOORPOUP*/ 
 
 .floorpopup4, .floorpopup5, .floorpopup6, .floorpopup7 {
@@ -75,11 +78,11 @@
     position:absolute;
 }
 #popback4, #popback5, #popback6, #popback7 {
-  float:right;
-  display: block;
-	width: 80px;
+    float:right;
+    display: block;
+    width: 80px;
 	height: 80px;
-  cursor:pointer;
+    cursor:pointer;
 }
 
 /*POPUP 4*/
@@ -107,27 +110,62 @@ width:420px;
 
 /*POPUP 5*/
 
-#programimg {
-    background-image: url(../img/adobekuvat.png);
+#mathimg {
+    background-image: url(../img/Math.png);
     background-repeat: no-repeat;
     background-size: contain;
     align-content: center;
-    width: 340px;
-    height:340px;
+    width: 560px;
+    height:350px;
     margin-left: 30px;
-    margin-top: 130px;
+    margin-top:70px;
     float:left;
 }
-#programtext {
-width:420px;
-  height:410px;
+#mathtext {
+width:200px;
+  height:210px;
   float:right;
   margin-left:30px;
     margin-right: 30px;
-  margin-top:20px;
-  text-align: center;
+  margin-top:40px;
+  text-align: left;
+}
+#answer {
+    padding:10px 6px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border:1px solid;
+    border-radius: 10px;
+}
+#answer:focus{
+    box-shadow: 0px 0px 4px 4px #a6a6a6;
 }
 
+#mathbutton {
+    display: inline-block;
+    padding: 1px 22px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#00497d;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px
+}
+
+#mathbutton:hover {
+    box-shadow: 0px 0px 4px 4px #a6a6a6;
+    background-color:#e6007e;
+}
+
+#mathbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 /*POPUP 6*/
 
 #blaaimg {
