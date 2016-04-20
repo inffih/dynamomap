@@ -23,6 +23,28 @@
 	background-size: cover;
 }
 
+#auditoriumbg {
+	z-index: -10;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url("../img/auditorium_bg.JPG");
+	background-size: cover;
+}
+
+#lobbybg {
+	z-index: -10;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url("../img/ulkokuvablur.jpg");
+	background-size: cover;
+}
+
 #restaurantbg {
 	z-index: -10;
 	width: 100vw;
