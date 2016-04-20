@@ -9,7 +9,7 @@ $("document").ready(function() {
     //avataan tekijä-osio
 	$(".menu2").click(function() {
        $("#tekijat").fadeToggle(500);
-   });
+    });
     //piilotetaan menu ja dynamiitti
     $(".menu2").click(function() {
         $(".menu, .dynamite").hide();
