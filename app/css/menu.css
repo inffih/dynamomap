@@ -65,10 +65,11 @@
   color:#e6007e;
 } /*2. menun teksti*/
 .menutext2 {
-  font-size:20px;
+  font-size:25px;
   text-align:center;
   text-align:center;
   color:#FFFFFF;
+  font-weight: 800;
 }
 /*tekijat-ikkuna*/
 #tekijat {
