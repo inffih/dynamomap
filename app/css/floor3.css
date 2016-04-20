@@ -5,41 +5,46 @@
 }
 #otsikko {
     text-align: center;
-    width: 900px;
-    margin-bottom: 10px;
+    width: 950px;
+    margin-bottom:30px;
 }
 .rightup_3 {
     float:right;
-    height: 200px;
-    width: 395px;
-    margin: 10px;
+    height: 190px;
+    width: 355px;
+    margin-bottom: 40px;
     background-image: url(../img/floor3sofa.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: bottom;
     cursor: pointer;
     margin-right: 235px;
+    border-radius: 10px;
 }
 
 .leftdown_3 {
 	float:left;
-    height: 200px;
-    width: 395px;
+    height: 190px;
+    width: 355px;
+    margin-left: 20px;
     background-image: url(../img/floo3computers.png); 
     background-repeat: no-repeat;
     background-size:contain;
     position: relative;
     cursor: pointer;
+    border-radius: 10px;
 }
 .rightdown_3 {
     float:right;
-    height: 200px;
-    width: 395px;
+    height: 190px;
+    width: 355px;
+    margin-right: 20px;
     text-align: center;
     background-image: url(../img/nursepic.png); 
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 /*KIRJAIMET DIVEISSÄ*/
@@ -161,7 +166,7 @@
 /*POPUP 2*/
 
 #floortext{
-    font-size: 50px;
+    font-size: 70px;
     margin-top:150px;
     text-align: center;
     position:absolute;
