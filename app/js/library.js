@@ -11,7 +11,7 @@ $("document").ready(function(e) {
 
     //Tietojen lataus (Lainattavat kuva)
     $("#books").click(function (e) {
-       $(".text").load("/pages/books.html");
+       $(".text").load("pages/books.html");
         $( this ).attr( "src", "img/books_pink.png" );
 
         // Toisten kuvien vaihtaminen
