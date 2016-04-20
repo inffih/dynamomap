@@ -9,6 +9,8 @@ $("document").ready(function() {
     //avataan tekijä-osio
 	$(".menu2").click(function() {
        $("#tekijat").fadeToggle(500);
+       $(".bubble").text("Niin kauniita ihmisiä!");
+       $(".bubble").css("color", "white");    
     });
     //piilotetaan menu ja dynamiitti
     $(".menu2").click(function() {
@@ -17,10 +19,11 @@ $("document").ready(function() {
     //backnappi
     $("#back").click(function() {
 		$(".info").hide();
-        $(".menu, .dynamite").fadeToggle(500);
+        $(".menu").fadeToggle(500);
     });
     $("#back").click(function() {
         $("#tekijat").hide();
+        $(".bubble").text("Pääset tutkimaan ja voit myös ihastella tekijöitä!");
     });
 
     //jokaisen oma divi avataan kuvaa klikkaamalla
@@ -78,4 +81,11 @@ $("document").ready(function() {
     $("#kalle, #erika, #juhani, #janne, #mikko, #maiju").hover(function() {
 		$(this).toggleClass("shadow");
 	});
+    
+    $(".dynamit").mouseenter(function(){
+    $(".bubble").addClass("bubble-is-open");
+  });
+  $(".dynamit").mouseleave(function(){
+    $(".bubble").removeClass("bubble-is-open");
+  });
 });
