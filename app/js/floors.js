@@ -20,7 +20,7 @@ $("document").ready(function(e) {
   });
 
   $("#floorbutton5").click(function (e) {
-      $("#logo").text("Dynamomap: Viitos kerros");
+      $("#logo").text("Dynamomap: Viides kerros");
      $(".content").load("pages/floor5.html");
        $(".bubble").children().html("Tänne sulla ei oo asiaa!");
   });
