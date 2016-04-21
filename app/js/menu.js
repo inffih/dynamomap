@@ -1,4 +1,5 @@
 $("document").ready(function() {
+    $("#logo").text("Dynamomap")
 	//valikko esiin
    $(".menu, .dynamite").fadeIn(1500);
 	//valikon hover ehosteet

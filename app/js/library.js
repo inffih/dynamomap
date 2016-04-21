@@ -1,6 +1,6 @@
 //document ready
 $("document").ready(function(e) {
-
+$("#logo").text("Dynamomap: Kirjasto");
   // bubble animation
   $(".dynamit").mouseenter(function(){
     $(".bubble").addClass("bubble-is-open");

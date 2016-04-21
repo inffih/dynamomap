@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+$("#logo").text("Dynamomap: Aula");
   // bubble animation
   $(".dynamit").mouseenter(function(){
     $(".bubble").addClass("bubble-is-open");

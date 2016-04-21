@@ -1,4 +1,5 @@
 $("document").ready(function(e) {
+    $("#logo").text("Dynamomap: Ravintola");
   $("#shirt, #sback").click(function(e) {
       $("#dsodexo").fadeToggle(1000);
   });

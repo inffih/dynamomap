@@ -42,6 +42,7 @@ $("ul li a").click(function() { $(this).parent().next().toggle("fast"); });
     });
 */
 $(document).ready(function(e){
+    
             $(".leftdown_3, #popback").click(function(e) {
                 $(".floorpopup").fadeToggle(1000);
             });

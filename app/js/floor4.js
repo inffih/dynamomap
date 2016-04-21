@@ -1,4 +1,5 @@
 $(document).ready(function(e){
+    
             $(".leftdown, #popback4").click(function(e) {
                 $(".floorpopup4").fadeToggle(1000);
             });
