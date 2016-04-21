@@ -9,7 +9,7 @@ $("document").ready(function() {
     //avataan tekijä-osio
 	$(".menu2").click(function() {
        $("#tekijat").fadeToggle(500);
-       $(".rmdynamit").hide();    
+       $(".dynamit").hide();    
     });
     //piilotetaan menu ja dynamiitti
     $(".menu2").click(function() {
@@ -22,7 +22,7 @@ $("document").ready(function() {
     });
     $("#back").click(function() {
         $("#tekijat").hide();
-        $(".rmdynamit").fadeIn(500);
+        $(".dynamit").fadeIn(500);
     });
 
     //jokaisen oma divi avataan kuvaa klikkaamalla
@@ -81,10 +81,10 @@ $("document").ready(function() {
 		$(this).toggleClass("shadow");
 	});
     
-    $(".rmdynamit").mouseenter(function(){
+    $(".dynamit").mouseenter(function(){
     $(".bubble").addClass("bubble-is-open");
   });
-  $(".rmdynamit").mouseleave(function(){
+  $(".dynamit").mouseleave(function(){
     $(".bubble").removeClass("bubble-is-open");
   });
 });
