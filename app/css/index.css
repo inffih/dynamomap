@@ -180,7 +180,8 @@ header h1 {
   -webkit-filter: drop-shadow(2px 2px 5px aliceblue);
 }
 
-.dynamit {
+.dynamit,
+.dynamit-alt {
 	height: 200px;
 	width: 100px;
 	background-image: url("../img/dynamit.png");
@@ -191,9 +192,15 @@ header h1 {
 	float: right;
 }
 
+.dynamit-alt:hover,
 .dynamit:hover {
-    -webkit-filter: drop-shadow(2px 2px 5px #FFFFFF);
-    background-image: url(../img/dynamitsuprise.png);
+	-webkit-filter: drop-shadow(2px 2px 5px #FFFFFF);
+}
+.dynamit-alt:hover {
+	background-image: url(../img/dynamitohno.png);
+}
+.dynamit:hover {
+	background-image: url(../img/dynamitsuprise.png);
 }
 
 .bubble {
