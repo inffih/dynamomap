@@ -1,5 +1,5 @@
 .col-2 {
-  margin-top: 25px;
+  margin-top: 40px;
   width: 40%;
   padding: 0 5% 0 5%;
   height: auto;
@@ -10,4 +10,5 @@
 #auditorioimg {
   width: 100%;
   height: auto;
+  border-radius: 7px;
 }

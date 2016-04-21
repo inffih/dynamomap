@@ -269,6 +269,7 @@ h1 {
 
 .content a {
 	color: #e6007e;
+	text-decoration: none;
 }
 
 .nav {
