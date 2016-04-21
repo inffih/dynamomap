@@ -22,7 +22,7 @@ $("document").ready(function(e) {
   $("#floorbutton5").click(function (e) {
       $("#logo").text("Dynamomap: Viitos kerros");
      $(".content").load("pages/floor5.html");
-       $(".bubble").children().html("LAITA TÄHÄN OMAN KERROKSEN TEKSTISI FLOORS.JS TIEDOSTOON");
+       $(".bubble").children().html("Tänne sulla ei oo asiaa!");
   });
 
   // bubble animation
