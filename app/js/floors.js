@@ -22,10 +22,10 @@ $("document").ready(function(e) {
   });
 
   // bubble animation
-  $(".dynamit").mouseenter(function(){
+  $(".dynamit-alt").mouseenter(function(){
     $(".bubble").addClass("bubble-is-open");
   });
-  $(".dynamit").mouseleave(function(){
+  $(".dynamit-alt").mouseleave(function(){
     $(".bubble").removeClass("bubble-is-open");
   });
 
