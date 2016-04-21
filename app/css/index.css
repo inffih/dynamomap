@@ -19,7 +19,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url("../img/ulkokuvablur.gif");
+	background-image: url("../img/ulkokuvablur_opt.gif");
 	background-size: cover;
 }
 
@@ -81,7 +81,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url("../img/library.png");
+	background-image: url("../img/library.jpg");
 	background-size: cover;
 }
 
