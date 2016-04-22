@@ -4,7 +4,7 @@ $("document").ready(function(e) {
   $("#floorbutton2").click(function (e) {
       $("#logo").text("Dynamomap: Toinen kerros");
      $(".content").load("pages/floor2.html");
-      $(".bubble").children().html("LAITA TÄHÄN OMAN KERROKSEN TEKSTISI FLOORS.JS TIEDOSTOON");
+      $(".bubble").children().html("Opiskelijakortilla voi saada alennusta myös kaljasta!");
   });
   
   $("#floorbutton3").click(function (e) {
