@@ -1,32 +1,106 @@
 .left_content{
   max-height: 520px;
   width: 395px;
-	padding-left: 10px;
 	float: left;
+    background-image: url("../img/floor2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative;
+    width: 342px;
+  height: 190px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.left_content h2{
+     font-size: 32px;
+     text-align: center;
+    margin-top: 90px;
+     font-weight: bold;
+ -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #e6007e;  
+}
+
+.left_content:hover{
+   -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+    cursor: pointer;
+    color:#e6007e;  
+    
 }
 
 .right_content{
-  float: left;
-	max-height: 520px;
-  width: 395px;
-  margin-left: 20px;
-  padding-left: 10px;
+    
+    margin-left: 70px;
+	float: left;
+    background-image: url("../img/jamkologo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative;
+    width: 342px;
+  height: 190px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+
+.right_content:hover{
+   -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+    cursor: pointer;
+ 
+}
+.bottom_content{
+    
+    margin-top: 70px;
+    margin-left: 100px;
+	float: left;
+    background-image: url("../img/jiologo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative;
+    width: 550px;
+  height: 190px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+
+.bottom_content:hover{
+   -webkit-filter: drop-shadow(2px 2px 4px #FFFFFF);
+    cursor: pointer;
+ 
+}
+
+
+.leftpopup, .rightpopup, .bottompopup {
+  margin-left:80px;
+    margin-top:0px;
+    background-image: url("../img/popupbg.png");
+    opacity:0.95;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px 4px #a6a6a6;
+    width:843px;
+    height:476px;
+    display:none;
+    position:absolute;
+    list-style: none;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 .content h1 {
-	margin-bottom: 10px;
-	font-size: 32px;
-  text-align: center;
+    text-align: center
 }
 
-.content_pic {
-  background-image: url("../img/floor2.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
-	width: 400px;
-  height: 222px;
-	border-radius: 5px;
-  margin-top: 40px;
-  margin-left: 20px;
-  float: left
+
+#leftback, #rightback, #bottomback {
+    float:right;
+    display: block;
+	width: 80px;
+	height: 80px;
+    cursor:pointer;
 }
